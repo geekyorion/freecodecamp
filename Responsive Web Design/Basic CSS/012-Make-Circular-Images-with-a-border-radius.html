@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic CSS</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
+
+    <style>
+        h2 {
+            font-family: Lobster, monospace;
+        }
+
+        .red-text {
+            color: red;
+        }
+
+        p {
+            font-family: monospace;
+            font-size: 16px;
+        }
+
+        .smaller-image {
+            width: 100px;
+        }
+
+        .thick-green-border {
+            border-color: green;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="red-text">CatPhotoApp</h2>
+    <main>
+        <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+        <a href="#">
+            <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."
+                class="smaller-image thick-green-border" />
+        </a>
+
+        <div>
+            <p>Things cats love:</p>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+        </div>
+
+        <div>
+            <p>Top 3 things cats hate:</p>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+        </div>
+
+        <form action="/submit-cat-photo">
+            <label id="indoor">
+                <input type="radio" name="indoor-outdoor" id="indoor" value="indoor" checked />Indoor
+            </label>
+            <label for="outdoor">
+                <input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor" />Outdoor
+            </label>
+
+            <br />
+
+            <label for="loving">
+                <input type="checkbox" name="personality" id="loving" value="loving" checked />Loving
+            </label>
+            <label for="lazy">
+                <input type="checkbox" name="personality" id="lazy" value="lazy" />Lazy
+            </label>
+            <label for="energetic">
+                <input type="checkbox" name="personality" id="energetic" value="energetic" />Energetic
+            </label>
+
+            <br />
+
+            <input type="text" placeholder="cat photo URL" required />
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
+
+<!-- link: https://www.freecodecamp.org/learn/responsive-web-design/basic-css/make-circular-images-with-a-border-radius -->
