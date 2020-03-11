@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applied Visual Design</title>
+
+    <style>
+        #ball {
+            width: 70px;
+            height: 70px;
+            margin: 50px auto;
+            position: fixed;
+            left: 20%;
+            border-radius: 50%;
+            background: linear-gradient(35deg,
+                    #ccffff,
+                    #ffcccc);
+            animation-name: fade;
+            animation-duration: 3s;
+        }
+
+        @keyframes fade {
+            50% {
+                left: 60%;
+                opacity: 0.1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ball"></div>
+</body>
+
+</html>
+
+<!-- link: https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/create-visual-direction-by-fading-an-element-from-left-to-right -->

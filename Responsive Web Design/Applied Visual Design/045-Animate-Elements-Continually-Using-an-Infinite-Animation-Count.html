@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applied Visual Design</title>
+
+    <style>
+        #ball {
+            width: 100px;
+            height: 100px;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 50%;
+            background: linear-gradient(35deg,
+                    #ccffff,
+                    #ffcccc);
+            animation-name: bounce;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes bounce {
+            0% {
+                top: 0px;
+            }
+
+            50% {
+                top: 249px;
+                width: 130px;
+                height: 70px;
+            }
+
+            100% {
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ball"></div>
+</body>
+
+</html>
+
+<!-- link: https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/animate-elements-continually-using-an-infinite-animation-count -->
