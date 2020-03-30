@@ -26,7 +26,6 @@ body {
     background-size: cover;
     color: white;
     font-family: 'Barlow', sans-serif;
-    min-height: 1000vh;;
 }
 
 .navbar {
@@ -39,7 +38,14 @@ body {
     overflow: hidden;
     padding: 0 5rem;
     position: fixed;
+    transition-duration: .25s;
     width: 100%;
+    z-index: 100;
+}
+
+.navbar:hover {
+    background: black;
+    border-color: #ccc;
 }
 
 .site-logo {
@@ -107,8 +113,23 @@ body {
     }
 }
 
-.title-block {
+.avicii-avatar {
     padding: 5rem;
+    text-align: center;
+}
+
+.main-avatar {
+    border-radius: 50%;
+    display: block;
+    filter: grayscale(100%) brightness(.5);
+    max-width: 350px;
+    min-width: 200px;
+    margin: auto;
+    transition-duration: .5s;
+    width: 30%;
+}
+
+.title-block {
     text-align: center;
 }
 
@@ -126,11 +147,15 @@ body {
     }
 }
 
-.main-title:hover {
+.avatar-block:hover .main-title {
     color: white;
     letter-spacing: .2rem;
     text-shadow: 0 0 20px white;
     transition-duration: .25s;
+}
+
+.avatar-block:hover .main-avatar {
+    filter: grayscale(0) brightness(1.25)
 }
 
 .short-desc {
@@ -178,7 +203,7 @@ body {
 }
 
 .external-links {
-    border-bottom: 1px dotted white;
+    color: #faa;
 }
 
 .section-desc {
@@ -197,13 +222,18 @@ body {
     row-gap: 1rem;
 }
 
-.column:nth-last-child(1):nth-child(odd) {
-	grid-column: 1 / span 2;
+.column:last-child:nth-child(odd) {
+	grid-column: 1 / 3;
 }
 
 @media only screen and (max-width: 1000px) {
     .row {
         grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+
+    .column {
+        grid-column: 1;
     }
 }
 
@@ -237,6 +267,7 @@ body {
     opacity: .3;
     position: relative;
     user-select: none;
+    text-align: left;
     top: 10rem;
     z-index: -1;
     -moz-user-select: none;
@@ -275,17 +306,69 @@ body {
     content: "- ";
 }
 
+#songs {
+    padding-bottom: 1rem;
+}
 
+.song-wrapper {
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    padding: 0;
+    text-align: left;
+}
 
+.song-num {
+    background: #123;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 600;
+    transition-duration: .25s;
+    height: 100%;
+}
 
+.song-wrapper:hover .song-num {
+    background: #447
+}
 
+.song-info {
+    padding: 2rem;
+}
 
+.song-detail-heading {
+    display: inline-block;
+    font-weight: 600;
+    text-align: justify;
+    width: 5rem;
+}
 
+.global-footer {
+    background: #0008;
+    border-top: 2px solid #888;
+    padding: 2rem;
+    text-align: center;
+    transition-duration: .25s;
+}
 
+.know-more {
+    font-size: 1.6rem;
+}
 
+.author {
+    font-size: 1.4rem;
+    letter-spacing: .3rem;
+    transition-duration: .25s;
+    word-spacing: .5rem;
+}
 
+.global-footer:hover {
+    background: black;
+    border-color: #ccc;
+}
 
-
-.main-avatar {
-    width: 10%
+.global-footer:hover .author a {
+    color: #faa;
 }
