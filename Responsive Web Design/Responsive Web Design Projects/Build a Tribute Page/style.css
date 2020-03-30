@@ -371,4 +371,5 @@ body {
 
 .global-footer:hover .author a {
     color: #faa;
+    transition-duration: .25s;
 }
