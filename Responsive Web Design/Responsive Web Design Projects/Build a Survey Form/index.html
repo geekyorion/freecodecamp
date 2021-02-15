@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Code - Survey Form - FCC</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <h1 id="title">Web Development - Survey</h1>
+        <p id="description">
+            We web developers are the magician for our end users and we can enhance our magic by several technologies.
+            Be a part of this survey to give me a idea about your magic recipe.
+        </p>
+        <form action="#" id="survey-form" method="post" onsumbit="return false;">
+            <div class="form-group">
+                <label class="form-label" id="name-label" for="name">Name</label>
+                <input class="form-control" type="text" id="name" placeholder="Geeky Orion" required />
+            </div>
+            <div class="form-group">
+                <label class="form-label" id="email-label" for="email">E-mail</label>
+                <input class="form-control" type="email" id="email" placeholder="youremail@provider.domain" required />
+            </div>
+            <div class="form-group">
+                <label class="form-label" id="number-label" for="number">Age</label>
+                <input class="form-control" type="number" id="number" min="10" max="100" placeholder="22" required />
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="profession">Profession</label>
+                <input class="form-control" list="dropdown" id="profession" required placeholder="Junior Developer" />
+                <datalist id="dropdown">
+                    <option value="Student">Hey there</option>
+                    <option value="Junior developer">Have a nice journey ahead</option>
+                    <option value="Senior developer">You know something I can smell it</option>
+                    <option value="Manager">Can't mess with</option>
+                </datalist>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="profession">Gender</label>
+                <div class="form-radio-group">
+                    <div class="form-control-group">
+                        <input class="form-control-radio" type="radio" name="gender" id="gender-female" value="female" />
+                        <label for="gender-female">Female</label>
+                    </div>
+                    <div class="form-control-group">
+                        <input class="form-control-radio" type="radio" name="gender" id="gender-male" value="male" />
+                        <label for="gender-male">Male</label>
+                    </div>
+                    <div class="form-control-group">
+                        <input class="form-control-radio" type="radio" name="gender" id="gender-others" value="othes" />
+                        <label for="gender-others">Others</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="profession">Tech</label>
+                <div class="form-checkbox-group">
+                    <div class="form-control-group">
+                        <input class="form-control-checkbox" type="checkbox" name="stack" id="stack-angular" value="angular" />
+                        <label for="stack-angular">Angular</label>
+                    </div>
+                    <div class="form-control-group">
+                        <input class="form-control-checkbox" type="checkbox" name="stack" id="stack-react" value="react" />
+                        <label for="stack-react">React</label>
+                    </div>
+                    <div class="form-control-group">
+                        <input class="form-control-checkbox" type="checkbox" name="stack" id="stack-vue" value="vue" />
+                        <label for="stack-vue">Vue</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group form-group-textarea">
+                <textarea name="comments" id="comments" class="form-control-textarea" placeholder="Any additional secret ingredients that you want to share!"></textarea>
+            </div>
+            <div class="form-group form-group-submit">
+                <button class="form-submit" id="submit">Submit Magic Details</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // fixing the test suite for the project
+        const projectName = 'survey-form';
+    </script>
+    <!-- Remove below comment to add the test-suite script -->
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
