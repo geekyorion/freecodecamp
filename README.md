@@ -12,5 +12,5 @@ Go through comments in the file, you may learn something new
 
 ### Responsive Web Design Project
 
--   [Survey Form](/Responsive Web Design/Responsive Web Design Projects/Build a Survey Form)
--   [Tribute Page](/Responsive Web Design/Responsive Web Design Projects/Build a Tribute Page)
+-   [Survey Form](./Responsive Web Design/Responsive Web Design Projects/Build a Survey Form)
+-   [Tribute Page](./Responsive Web Design/Responsive Web Design Projects/Build a Tribute Page)
