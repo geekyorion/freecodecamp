@@ -12,6 +12,6 @@ Go through comments in the file, you may learn something new
 
 ### Responsive Web Design Project
 
--   For Avicii- [Tribute-Page](./Responsive Web Design/Responsive Web Design Projects/Build a Tribute Page)
--   Simple Web development [Survey-Form](./Responsive Web Design/Responsive Web Design Projects/Build a Survey Form)
--   Avicii Gravity Game [Product-Landing-Page](./Responsive Web Design/Responsive Web Design Projects/Build a Product Landing Page)
+-   For Avicii [Tribute-Page](https://geekyorion.github.io/freecodecamp/Responsive%20Web%20Design/Responsive%20Web%20Design%20Projects/Build%20a%20Tribute%20Page/)
+-   Simple Web development [Survey-Form](https://geekyorion.github.io/freecodecamp/Responsive%20Web%20Design/Responsive%20Web%20Design%20Projects/Build%20a%20Survey%20Form/)
+-   Avicii Gravity Game [Product-Landing-Page](https://geekyorion.github.io/freecodecamp/Responsive%20Web%20Design/Responsive%20Web%20Design%20Projects/Build%20a%20Product%20Landing%20Page/#download)
