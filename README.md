@@ -12,5 +12,6 @@ Go through comments in the file, you may learn something new
 
 ### Responsive Web Design Project
 
--   [Survey Form](./Responsive Web Design/Responsive Web Design Projects/Build a Survey Form)
--   [Tribute Page](./Responsive Web Design/Responsive Web Design Projects/Build a Tribute Page)
+-   For Avicii- [Tribute-Page](./Responsive Web Design/Responsive Web Design Projects/Build a Tribute Page)
+-   Simple Web development [Survey-Form](./Responsive Web Design/Responsive Web Design Projects/Build a Survey Form)
+-   Avicii Gravity Game [Product-Landing-Page](./Responsive Web Design/Responsive Web Design Projects/Build a Product Landing Page)

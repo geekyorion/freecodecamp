@@ -6,37 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page Landing - FCC</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <div class="wrapper">
         <header id="header">
+            <img src="./images/name-logo.svg" alt="Avicii logo" id="header-img" />
             <nav id="nav-bar">
-                <ul>
-                    <li>
+                <ul class="link-wrapper">
+                    <li class="link">
                         <a href="#home" class="nav-link">Home</a>
                     </li>
-                    <li>
+                    <li class="link">
                         <a href="#about" class="nav-link">About</a>
                     </li>
-                    <li>
-                        <a href="#pricing" class="nav-link">Pricing</a>
+                    <li class="link">
+                        <a href="#download" class="nav-link">Download</a>
                     </li>
                 </ul>
             </nav>
-            <img src="#" alt="Logo" id="header-img" />
         </header>
 
-        <div id="home">
-            <video src="#" id="video"></video>
-            <form action="#" id="form">
-                <input type="email" name="email" id="email" placeholder="username@provider.domain" />
-                <input type="submit" id="submit" value="Submit" />
-            </form>
+        <div id="home" class="section">
+            <div class="home-text">
+                <p class="main-text">Don't just listen to music</p>
+                <p class="main-text">Enjoy it while playing</p>
+                <p class="support-text">Avicii Gravity HD</p>
+            </div>
         </div>
-        <div id="about"></div>
-        <div id="pricing"></div>
+
+        <div id="about" class="section">
+            <h1>What's Special</h1>
+            <p class="helper-para">
+                In GRAVITY the player's performance dynamically changes the way AVICII's songs are experienced and built up.
+                A capturing ride through endless, artistic environments - inspired by AVICII's music - puts the player in a flow-like state.
+                As with his songs, we wanted the game to be something you'd play over and over again.
+            </p>
+
+            <div class="video-wrapper">
+                <h2>Watch Film</h2> 
+                <iframe
+                    id="video"
+                    src="https://www.youtube-nocookie.com/embed/BxSnBtl9UuE?rel=0&amp;controls=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            <div class="small-text">
+                <span>Source:
+                    <a href="https://aviciigravity.com/">Avicii Gravity</a>
+                </span>
+            </div>
+        </div>
+
+        <div id="download" class="section">
+            <div class="download-wrapper">
+                <div id="store_buttons">
+                    <a
+                        class="storebutton"
+                        href="https://play.google.com/store/apps/details?id=com.umusic.avicii"
+                    >
+                        <img src="images/button_googleplay.png" />
+                    </a>
+                    <a
+                        class="storebutton"
+                        href="https://itunes.apple.com/app/id706027068"
+                    >
+                        <img src="images/button_appstore.png" />
+                    </a>
+    
+                </div>
+            </div>
+            <div class="form-wrapper">
+                <h3>Subscribe to our newsletter</h3>
+                <form action="#" id="form">
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="username@provider.domain" class="form-control" />
+                        <input type="submit" id="submit" class="form-submit" value="Submit" />
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
     <script>
