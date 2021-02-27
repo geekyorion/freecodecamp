@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation - create Tree in JS - FCC</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <header class="text-center">
+        <h1>JS - Basic Tree Data Structure</h1>
+    </header>
+    <div class="wrapper">
+        <nav id="navbar">
+            <header>
+                <h2>Index</h2>
+            </header>
+            <div class="nav-items">
+                <div class="nav-item">
+                    <a href="#Tree_Data_Structure" class="nav-link">Tree Data Structure</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#Tree_Terminologies" class="nav-link">Tree Terminologies</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#Types_of_Tree" class="nav-link">Types of Tree</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#Tree_Traversal" class="nav-link">Tree Traversal</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#Creating_a_Basic_Tree" class="nav-link">Creating a Basic Tree</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#Tree_Application" class="nav-link">Tree Application</a>
+                </div>
+            </div>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Tree_Data_Structure">
+                <header class="section-header">Tree Data Structure</header>
+                <div class="section-content">
+                    <p>
+                        A tree is a <strong>non hierarchical data structure</strong> in which the the information
+                        or value is represented by <strong>Tree Nodes</strong> and these nodes are connected by
+                        <strong>Edges</strong>.
+                    </p>
+                </div>
+            </section>
+            <section class="main-section" id="Tree_Terminologies">
+                <header class="section-header">Tree Terminologies</header>
+                <div class="section-content">
+                    <ul class="terminologies-list">
+                        <li class="terminology-item">
+                            <p>
+                                <strong>Node:</strong>
+                                A node is a entity which holds a value, an information, a pointer, etc.
+                                <ul>
+                                    <li>Internal Node: A node which has at least one child</li>
+                                    <li>Leaf Node: A node which has no child or the last node in a tree branch</li>
+                                </ul>
+                            </p> 
+                        </li>
+                        <li class="terminology-item">
+                            <p>
+                                <strong>Edge:</strong>
+                                Edge is the link in between two nodes
+                            </p>
+                        </li>
+                        <li class="terminology-item">
+                            <p>
+                                <strong>Root Node:</strong>
+                                The entry point (usually represented by topmost node) of a tree is known as root node.
+                            </p>
+                        </li>
+                        <li class="terminology-item">
+                            <p>
+                                <strong>Height:</strong>
+                                Number of the edges in the longest path from root node to leaf node.
+                            </p>
+                        </li>
+                        <li class="terminology-item">
+                            <p>
+                                <strong>Degree:</strong>
+                                Degree of a node is the total number of branches of that node
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="main-section" id="Types_of_Tree">
+                <header class="section-header">Types of Tree</header>
+                <div class="section-content">
+                    <p>Tree is of 4 types: </p>
+                    <ol>
+                        <li>Binary Tree</li>
+                        <li>Binary Search Tree</li>
+                        <li>AVL Tree</li>
+                        <li>B-Tree</li>
+                    </ol>
+                </div>
+            </section>
+            <section class="main-section" id="Tree_Traversal">
+                <header class="section-header">Tree Traversal</header>
+                <div class="section-content">
+                    <p>
+                        To perform any operation or to get a specific value, tree traversal algorithms are used.
+                        We can traverse tree in basically three following types:
+                    </p>
+                    <ol>
+                        <li>Preorder Traversal</li>
+                        <li>Inorder Traversal</li>
+                        <li>Post Traversal</li>
+                    </ol>
+                </div>
+            </section>
+            <section class="main-section" id="Creating_a_Basic_Tree">
+                <header class="section-header">Creating a Basic Tree</header>
+                <div class="section-content">
+                    <div class="step">
+                        <p>Here is an example of a tree which we are going to implement at last</p>
+                        <figure class="text-center">
+                            <img src="./tree.png" alt="a tree with 7 nodes" />
+                            <figcaption><em>Figure 1: An example of a tree</em></figcaption>
+                        </figure>
+                    </div>
+                    <div class="step">
+                        <p>First we need to create the JS class</p>
+                        <div class="code-wrapper">
+                            <code>
+                                <pre>
+                                    class Tree {
+                                        // Tree defination will come here
+                                    }
+                                </pre>
+                            </code>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <p>A tree node contains value, left child and right child so let's go create that</p>
+                        <div class="code-wrapper">
+                            <code>
+                                <pre>
+                                    class Tree {
+                                        constructor(nodeValue, leftNode, rightNode) {
+                                            this.value = nodeValue;
+                                            this.leftNode = leftNode;
+                                            this.rightNode = rightNode;
+                                        }
+                                    }
+                                </pre>
+                            </code>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <p>Assign default parameter as null if user doesn't pass the pointer to the left or right node</p>
+                        <div class="code-wrapper">
+                            <code>
+                                <pre>
+                                    // Replace constructor signature with the following
+                                    constructor(nodeValue = 0, leftNode = null, rightNode = null)
+                                </pre>
+                            </code>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <p>Let's create a tree with three nodes</p>
+                        <div class="code-wrapper">
+                            <code>
+                                <pre>
+                                    // we need not pass left or right as default parameter are already there
+                                    const left = new Tree('left');
+                                    const right = new Tree('right');
+                                    // here we need to pass the left and right node as parameter
+                                    const root = new Tree('root', left, right);
+                                </pre>
+                            </code>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <p>That's it, you have created the tree in above step and here is the complete code for a tree</p>
+                        <div class="code-wrapper">
+                            <code>
+                                <pre>
+                                    class Tree {
+                                        constructor(nodeValue, leftNode, rightNode) {
+                                            this.value = nodeValue;
+                                            this.leftNode = leftNode;
+                                            this.rightNode = rightNode;
+                                        }
+                                    }
+
+                                    const node7 = new Tree(7);
+                                    const node6 = new Tree(6);
+                                    const node5 = new Tree(5);
+                                    const node4 = new Tree(4);
+                                    const node3 = new Tree(3, node6, node7);
+                                    const node2 = new Tree(2, node4, node5);
+                                    const root = new Tree(1, node2, node3);
+                                </pre>
+                            </code>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <p>Here is the JSON of the tree we just created</p>
+                        <div class="code-wrapper">
+                            <code>
+                                <pre>
+                                    {
+                                        "value": 1,
+                                        "leftNode": {
+                                            "value": 2,
+                                            "leftNode": {
+                                                "value": 4
+                                            },
+                                            "rightNode": {
+                                                "value": 5
+                                            }
+                                        },
+                                        "rightNode": {
+                                            "value": 3,
+                                            "leftNode": {
+                                                "value": 6
+                                            },
+                                            "rightNode": {
+                                                "value": 7
+                                            }
+                                        }
+                                    }
+                                </pre>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-section" id="Tree_Application">
+                <header class="section-header">Tree Application</header>
+                <div class="section-content">
+                    <ul>
+                        <li>In searching algorithm, specially in heap sort</li>
+                        <li>HTML DOM is a tree</li>
+                        <li>Compilers uses the syntax tree to validate the syntax of a code</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // fixing the test suite for the project
+        const projectName = 'technical-docs-page';
+    </script>
+    <!-- Remove below comment to add the test-suite script -->
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
