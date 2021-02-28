@@ -13,7 +13,7 @@ var probs = json.allChallengeNode.edges;
 
 var count = 0;
 for (let i = 0; i < probs.length; i++) {
-    if (probs[i].node.block == "basic-javascript") {
+    if (probs[i].node.block == "es6") {
 
         // Fetch the title
         var title = probs[i].node.title;
