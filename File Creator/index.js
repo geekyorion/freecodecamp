@@ -3,7 +3,7 @@ const json = require('./data');
 const fs = require('fs');
 
 // fetch all of the edges
-var probs = json.result.data.allChallengeNode.edges;
+var probs = json.allChallengeNode.edges;
 
 /**
  * Note: use node to create file(s)
@@ -11,7 +11,7 @@ var probs = json.result.data.allChallengeNode.edges;
  * it will create the files in the same folder
  */
 
-var count = 1;
+var count = 0;
 for (let i = 0; i < probs.length; i++) {
     if (probs[i].node.block == "basic-javascript") {
 
