@@ -140,6 +140,13 @@ a {
     width: 100%;
     text-align: center;
     margin: 20px;
+    border: 2px solid #0000;
+    transition-duration: 0.25s;
+    border-radius: 8px;
+}
+
+.project-tile:hover {
+    border: 2px solid #888;
 }
 
 .project-name,
@@ -156,6 +163,10 @@ a {
     font-weight: 600;
     background-color: #d6d6d69e;
     border-radius: 3px;
+}
+
+.project-tile:hover .project-name {
+    background-color: #d6d6d6dd;
 }
 
 .project-info {
