@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Page - GeekyOrion - FCC</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="navbar">
+            <a class="nav-item nav-header" href="#welcome-section">GeekyOrion</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+        </nav>
+        <div id="welcome-section">
+            <div class="welcome-strips"></div>
+            <div class="welcome-content text-center">
+                <h1>Hola, I am <span class="name">GeekyOrion</span></h1>
+                <h2>A Full Stack JS Developer</h2>
+            </div>
+        </div>
+
+        <div id="projects">
+            <header class="text-center">
+                <h3>Previous projects of the FreeCodeCamp - Responsive Web Designing Course are listed below:</h3>
+            </header>
+            <div class="projects-wrapper">
+                <div class="project-tile">
+                    <a
+                        href="https://geekyorion.github.io/freecodecamp/Responsive%20Web%20Design/Responsive%20Web%20Design%20Projects/Build%20a%20Tribute%20Page/"
+                        target="_blank"
+                    >
+                        <div class="project-name">Tribute Page</div>
+                        <div class="project-info">For Avicii</div>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <a
+                        href="https://geekyorion.github.io/freecodecamp/Responsive%20Web%20Design/Responsive%20Web%20Design%20Projects/Build%20a%20Survey%20Form/"
+                        target="_blank"
+                    >
+                        <div class="project-name">Survey Form</div>
+                        <div class="project-info">Survey on Web Development</div>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <a
+                        href="https://geekyorion.github.io/freecodecamp/Responsive%20Web%20Design/Responsive%20Web%20Design%20Projects/Build%20a%20Product%20Landing%20Page/"
+                        target="_blank"
+                    >
+                        <div class="project-name">Product Landing Page</div>
+                        <div class="project-info">For Avicii's Gravity Game</div>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <a
+                        href="https://geekyorion.github.io/freecodecamp/Responsive%20Web%20Design/Responsive%20Web%20Design%20Projects/Build%20a%20Technical%20Documentation%20Page/"
+                        target="_blank"
+                    >
+                        <div class="project-name">Technical Documentation Page</div>
+                        <div class="project-info">JS Tree Data Structure</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="connection-block text-center">
+            <p>
+                Please visit
+                <a id="profile-link" href="https://www.github.com/geekyorion" target="_blank">My Github</a>
+                for FreeCodeCamp courses' solution and Projects
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        // fixing the test suite for the project
+        const projectName = 'portfolio';
+    </script>
+    <!-- Remove below comment to add the test-suite script -->
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
