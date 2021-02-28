@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
     <header class="text-center">
         <h1>JS - Basic Tree Data Structure</h1>
@@ -62,7 +64,7 @@
                                     <li>Internal Node: A node which has at least one child</li>
                                     <li>Leaf Node: A node which has no child or the last node in a tree branch</li>
                                 </ul>
-                            </p> 
+                            </p>
                         </li>
                         <li class="terminology-item">
                             <p>
@@ -132,9 +134,9 @@
                         <div class="code-wrapper">
                             <code>
                                 <pre>
-                                    class Tree {
-                                        // Tree defination will come here
-                                    }
+                                    $dy> class Tree {
+                                    $dy>     // Tree defination will come here
+                                    $dy> }
                                 </pre>
                             </code>
                         </div>
@@ -144,24 +146,25 @@
                         <div class="code-wrapper">
                             <code>
                                 <pre>
-                                    class Tree {
-                                        constructor(nodeValue, leftNode, rightNode) {
-                                            this.value = nodeValue;
-                                            this.leftNode = leftNode;
-                                            this.rightNode = rightNode;
-                                        }
-                                    }
+                                    $dy> class Tree {
+                                    $dy>     constructor(nodeValue, leftNode, rightNode) {
+                                    $dy>         this.value = nodeValue;
+                                    $dy>         this.leftNode = leftNode;
+                                    $dy>         this.rightNode = rightNode;
+                                    $dy>     }
+                                    $dy> }
                                 </pre>
                             </code>
                         </div>
                     </div>
                     <div class="step">
-                        <p>Assign default parameter as null if user doesn't pass the pointer to the left or right node</p>
+                        <p>Assign default parameter as null if user doesn't pass the pointer to the left or right node
+                        </p>
                         <div class="code-wrapper">
                             <code>
                                 <pre>
-                                    // Replace constructor signature with the following
-                                    constructor(nodeValue = 0, leftNode = null, rightNode = null)
+                                    $dy> // Replace constructor signature with the following
+                                    $dy> constructor(nodeValue = 0, leftNode = null, rightNode = null)
                                 </pre>
                             </code>
                         </div>
@@ -171,35 +174,36 @@
                         <div class="code-wrapper">
                             <code>
                                 <pre>
-                                    // we need not pass left or right as default parameter are already there
-                                    const left = new Tree('left');
-                                    const right = new Tree('right');
-                                    // here we need to pass the left and right node as parameter
-                                    const root = new Tree('root', left, right);
+                                    $dy> // we need not pass left or right as default parameter are already there
+                                    $dy> const left = new Tree('left');
+                                    $dy> const right = new Tree('right');
+                                    $dy> // here we need to pass the left and right node as parameter
+                                    $dy> const root = new Tree('root', left, right);
                                 </pre>
                             </code>
                         </div>
                     </div>
                     <div class="step">
-                        <p>That's it, you have created the tree in above step and here is the complete code for a tree</p>
+                        <p>That's it, you have created the tree in above step and here is the complete code for a tree
+                        </p>
                         <div class="code-wrapper">
                             <code>
                                 <pre>
-                                    class Tree {
-                                        constructor(nodeValue, leftNode, rightNode) {
-                                            this.value = nodeValue;
-                                            this.leftNode = leftNode;
-                                            this.rightNode = rightNode;
-                                        }
-                                    }
+                                    $dy> class Tree {
+                                    $dy>     constructor(nodeValue, leftNode, rightNode) {
+                                    $dy>         this.value = nodeValue;
+                                    $dy>         this.leftNode = leftNode;
+                                    $dy>         this.rightNode = rightNode;
+                                    $dy>     }
+                                    $dy> }
 
-                                    const node7 = new Tree(7);
-                                    const node6 = new Tree(6);
-                                    const node5 = new Tree(5);
-                                    const node4 = new Tree(4);
-                                    const node3 = new Tree(3, node6, node7);
-                                    const node2 = new Tree(2, node4, node5);
-                                    const root = new Tree(1, node2, node3);
+                                    $dy> const node7 = new Tree(7);
+                                    $dy> const node6 = new Tree(6);
+                                    $dy> const node5 = new Tree(5);
+                                    $dy> const node4 = new Tree(4);
+                                    $dy> const node3 = new Tree(3, node6, node7);
+                                    $dy> const node2 = new Tree(2, node4, node5);
+                                    $dy> const root = new Tree(1, node2, node3);
                                 </pre>
                             </code>
                         </div>
@@ -209,27 +213,27 @@
                         <div class="code-wrapper">
                             <code>
                                 <pre>
-                                    {
-                                        "value": 1,
-                                        "leftNode": {
-                                            "value": 2,
-                                            "leftNode": {
-                                                "value": 4
-                                            },
-                                            "rightNode": {
-                                                "value": 5
-                                            }
-                                        },
-                                        "rightNode": {
-                                            "value": 3,
-                                            "leftNode": {
-                                                "value": 6
-                                            },
-                                            "rightNode": {
-                                                "value": 7
-                                            }
-                                        }
-                                    }
+                                    $dy> {
+                                    $dy>     "value": 1,
+                                    $dy>     "leftNode": {
+                                    $dy>         "value": 2,
+                                    $dy>         "leftNode": {
+                                    $dy>             "value": 4
+                                    $dy>         },
+                                    $dy>         "rightNode": {
+                                    $dy>             "value": 5
+                                    $dy>         }
+                                    $dy>     },
+                                    $dy>     "rightNode": {
+                                    $dy>         "value": 3,
+                                    $dy>         "leftNode": {
+                                    $dy>             "value": 6
+                                    $dy>         },
+                                    $dy>         "rightNode": {
+                                    $dy>             "value": 7
+                                    $dy>         }
+                                    $dy>     }
+                                    $dy> }
                                 </pre>
                             </code>
                         </div>
@@ -252,8 +256,32 @@
     <script>
         // fixing the test suite for the project
         const projectName = 'technical-docs-page';
+
+        /**
+         * > can assign the whole PRE TAG TEXT through JS
+         * > can also use <br /> and &nbsp; to create the pre tag
+         * 
+         * here I am using $dy> to remove the whiteSpace
+         * > it won't remove the whiteSpace from the user entered code
+         * > it removes only HTML formatter pre tag issues
+         */
+
+        const allPreTag = document.querySelectorAll('pre');
+        for(let pre of allPreTag) {
+            let text = pre.innerText;
+            const whiteSpaceLength = text.length - text.trimStart().length;
+            let replaceString = "$dy>";
+            for(let i = 0; i < whiteSpaceLength; i++) {
+                replaceString = " " + replaceString;
+            }
+            while(text.indexOf(replaceString) !== -1) {
+                text = text.replace(replaceString, "");
+            }
+            pre.innerText = text;
+        }
     </script>
     <!-- Remove below comment to add the test-suite script -->
     <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
 </body>
+
 </html>

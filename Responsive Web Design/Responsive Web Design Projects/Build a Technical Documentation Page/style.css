@@ -76,7 +76,7 @@ code pre {
     width: fit-content;
     margin: 0;
     padding: 10px;
-    margin-left: -270px;
+    /* margin-left: -270px; */
     margin-bottom: -15px;
 }
 
