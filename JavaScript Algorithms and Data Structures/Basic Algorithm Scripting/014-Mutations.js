@@ -1,11 +1,11 @@
 // using object to find the key - hash table approach - faster
 function mutation(arr) {
-    const heap = {};
+    const hash = {};
     for (let elem of arr[0].toLowerCase()) {
-        heap[elem] = true;
+        hash[elem] = true;
     }
     for (let elem of arr[1].toLowerCase()) {
-        if (!heap[elem]) {
+        if (!hash[elem]) {
             return false;
         }
     }
