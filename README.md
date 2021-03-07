@@ -1,14 +1,9 @@
 # FreeCodeCamp
 
-FreeCodeCamp.org solutions with explanation
+###FreeCodeCamp.org solutions for
 
-**Please see the comments for the explanation**  
-Go through comments in the file, you may learn something new
-
--   If you find any error or want to contribute
-    -   commit you changes
-    -   raise the pull request
--   If you want to ask something then please comment
+-   JavaScript Algorithms and Data Structures
+-   Responsive Web Design
 
 ### Responsive Web Design Project
 
