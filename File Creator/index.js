@@ -13,7 +13,7 @@ const probs = json.allChallengeNode.edges;
 
 let count = 0;
 for (let i = 0; i < probs.length; i++) {
-    if (probs[i].node.block == "bootstrap") {
+    if (probs[i].node.block == "jquery") {
 
         // Fetch the title
         let title = probs[i].node.title;
@@ -35,13 +35,18 @@ for (let i = 0; i < probs.length; i++) {
 </head>
 <body>
 
-    <script src="./../assets/bootstrap-v5/js/bootstrap.min.js"></script>
+    <script src="./../assets/jquery/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+        });
+    </script>
 </body>
 </html>
 
 <!-- link: https://www.freecodecamp.org${probs[i].node.fields.slug}
 For the live view, please visit the below link
-https://geekyorion.github.io/freecodecamp/Front End Development Libraries/Bootstrap/${title} -->
+https://geekyorion.github.io/freecodecamp/Front End Development Libraries/jQuery/${title} -->
 `;
 
         // use writeFile to write and save file in the same folder (uses relative path)
