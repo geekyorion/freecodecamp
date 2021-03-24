@@ -13,17 +13,19 @@ var probs = json.allChallengeNode.edges;
 
 var count = 0;
 for (let i = 0; i < probs.length; i++) {
-    if (probs[i].node.block == "es6") {
+    if (probs[i].node.block == "bootstrap") {
 
         // Fetch the title
         var title = probs[i].node.title;
         // split title into words array and join using "-"
         title = title.split(" ").join("-");
         // calculate the number of zeros as per the value of count
-        title = `${count < 10 ? "00" + count : count < 100 ? "0" + count : count}-${title}.js`;
+        title = `${count < 10 ? "00" + count : count < 100 ? "0" + count : count}-${title}.html`;
 
         // create link to store in the file
-        var data = `\n\n// link: https://www.freecodecamp.org${probs[i].node.fields.slug}`;
+        var data = `\n\n<!-- link: https://www.freecodecamp.org${probs[i].node.fields.slug} -->`;
+        data += `\n<!-- For the live view, please visit the below link -->`;
+        data += `\n<!-- https://geekyorion.github.io/freecodecamp/Front End Development Libraries/Bootstrap/${title}\n -->`;
 
         // use writeFile to write and save file in the same folder (uses relative path)
         fs.writeFile(title, data, (err) => {

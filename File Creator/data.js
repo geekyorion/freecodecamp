@@ -1,4496 +1,2061 @@
 // freecodecamp json data from network call
 
 module.exports = json = {
-    "markdownRemark": {
-        "frontmatter": {
-            "superBlock": "javascript-algorithms-and-data-structures"
-        }
-    },
     "allChallengeNode": {
         "edges": [
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comment-your-javascript-code",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7123c9c441eddfaeb4bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comment Your JavaScript Code",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comment-your-javascript-code"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/declare-javascript-variables",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7123c9c443eddfaeb5bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Declare JavaScript Variables",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "declare-javascript-variables"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/storing-values-with-the-assignment-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244a8",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Storing Values with the Assignment Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "storing-values-with-the-assignment-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/assigning-the-value-of-one-variable-to-another",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "5ee127a03c3b35dd45426493",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Assigning the Value of One Variable to Another",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "assigning-the-value-of-one-variable-to-another"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/initializing-variables-with-the-assignment-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244a9",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Initializing Variables with the Assignment Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "initializing-variables-with-the-assignment-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-uninitialized-variables",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244aa",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Understanding Uninitialized Variables",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understanding-uninitialized-variables"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-case-sensitivity-in-variables",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244ab",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Understanding Case Sensitivity in Variables",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understanding-case-sensitivity-in-variables"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/add-two-numbers-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c11feddfaeb3bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Add Two Numbers with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "add-two-numbers-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/subtract-one-number-from-another-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c11feddfaeb4bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Subtract One Number from Another with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "subtract-one-number-from-another-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/multiply-two-numbers-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1231c1c11feddfaeb5bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Multiply Two Numbers with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "multiply-two-numbers-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/divide-one-number-by-another-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c11feddfaeb6bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Divide One Number by Another with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "divide-one-number-by-another-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/increment-a-number-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244ac",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Increment a Number with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "increment-a-number-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/decrement-a-number-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244ad",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Decrement a Number with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "decrement-a-number-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/create-decimal-numbers-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1391c1c11feddfaeb4bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Create Decimal Numbers with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "create-decimal-numbers-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/multiply-two-decimals-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7993c9c69feddfaeb7bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Multiply Two Decimals with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "multiply-two-decimals-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/divide-one-decimal-by-another-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7993c9ca9feddfaeb7bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Divide One Decimal by Another with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "divide-one-decimal-by-another-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/finding-a-remainder-in-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244ae",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Finding a Remainder in JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "finding-a-remainder-in-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-addition",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244af",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Compound Assignment With Augmented Addition",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "compound-assignment-with-augmented-addition"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-subtraction",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244b0",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Compound Assignment With Augmented Subtraction",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "compound-assignment-with-augmented-subtraction"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244b1",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Compound Assignment With Augmented Multiplication",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "compound-assignment-with-augmented-multiplication"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-division",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244b2",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Compound Assignment With Augmented Division",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "compound-assignment-with-augmented-division"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/declare-string-variables",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7123c9c444eddfaeb5bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Declare String Variables",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "declare-string-variables"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/escaping-literal-quotes-in-strings",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244b5",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Escaping Literal Quotes in Strings",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "escaping-literal-quotes-in-strings"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/quoting-strings-with-single-quotes",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244b4",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Quoting Strings with Single Quotes",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "quoting-strings-with-single-quotes"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/escape-sequences-in-strings",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244b6",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Escape Sequences in Strings",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "escape-sequences-in-strings"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-plus-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244b7",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Concatenating Strings with Plus Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "concatenating-strings-with-plus-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244b8",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Concatenating Strings with the Plus Equals Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "concatenating-strings-with-the-plus-equals-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/constructing-strings-with-variables",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244b9",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Constructing Strings with Variables",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "constructing-strings-with-variables"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/appending-variables-to-strings",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244ed",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Appending Variables to Strings",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "appending-variables-to-strings"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/find-the-length-of-a-string",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7123c9c448eddfaeb5bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Find the Length of a String",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "find-the-length-of-a-string"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-first-character-in-a-string",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7123c9c549eddfaeb5bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use Bracket Notation to Find the First Character in a String",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-bracket-notation-to-find-the-first-character-in-a-string"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/understand-string-immutability",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244ba",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Understand String Immutability",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understand-string-immutability"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-character-in-a-string",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7123c9c450eddfaeb5bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use Bracket Notation to Find the Nth Character in a String",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-bracket-notation-to-find-the-nth-character-in-a-string"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-last-character-in-a-string",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7123c9c451eddfaeb5bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use Bracket Notation to Find the Last Character in a String",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-bracket-notation-to-find-the-last-character-in-a-string"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7123c9c452eddfaeb5bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use Bracket Notation to Find the Nth-to-Last Character in a String",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-bracket-notation-to-find-the-nth-to-last-character-in-a-string"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/word-blanks",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244bb",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Word Blanks",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "word-blanks"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/store-multiple-values-in-one-variable-using-javascript-arrays",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7993c9c69feddfaeb8bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Store Multiple Values in one Variable using JavaScript Arrays",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "store-multiple-values-in-one-variable-using-javascript-arrays"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c11feddfaeb7bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Nest one Array within Another Array",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "nest-one-array-within-another-array"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56bbb991ad1ed5201cd392ca",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Access Array Data with Indexes",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "access-array-data-with-indexes"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c11feddfaeb8bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Modify Array Data With Indexes",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "modify-array-data-with-indexes"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56592a60ddddeae28f7aa8e1",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Access Multi-Dimensional Arrays With Indexes",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "access-multi-dimensional-arrays-with-indexes"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56bbb991ad1ed5201cd392cb",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Manipulate Arrays With push()",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "manipulate-arrays-with-push"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56bbb991ad1ed5201cd392cc",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Manipulate Arrays With pop()",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "manipulate-arrays-with-pop"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56bbb991ad1ed5201cd392cd",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Manipulate Arrays With shift()",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "manipulate-arrays-with-shift"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56bbb991ad1ed5201cd392ce",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Manipulate Arrays With unshift()",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "manipulate-arrays-with-unshift"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244bc",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Shopping List",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "shopping-list"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56bbb991ad1ed5201cd392cf",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Write Reusable JavaScript with Functions",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "write-reusable-javascript-with-functions"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244bd",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Passing Values to Functions with Arguments",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "passing-values-to-functions-with-arguments"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244be",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Global Scope and Functions",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "global-scope-and-functions"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244bf",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Local Scope and Functions",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "local-scope-and-functions"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244c0",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Global vs. Local Scope in Functions",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "global-vs--local-scope-in-functions"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244c2",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Return a Value from a Function with Return",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "return-a-value-from-a-function-with-return"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "598e8944f009e646fc236146",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Understanding Undefined Value returned from a Function",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understanding-undefined-value-returned-from-a-function"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244c3",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Assignment with a Returned Value",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "assignment-with-a-returned-value"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244c6",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Stand in Line",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "stand-in-line"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-boolean-values",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "bd7123c9c441eddfaeb5bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Understanding Boolean Values",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understanding-boolean-values"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c12feddfaeb3bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use Conditional Logic with If Statements",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-conditional-logic-with-if-statements"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244d0",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comparison with the Equality Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comparison-with-the-equality-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244d1",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comparison with the Strict Equality Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comparison-with-the-strict-equality-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/practice-comparing-different-values",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "599a789b454f2bbd91a3ff4d",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Practice comparing different values",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "practice-comparing-different-values"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-inequality-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244d2",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comparison with the Inequality Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comparison-with-the-inequality-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-inequality-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244d3",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comparison with the Strict Inequality Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comparison-with-the-strict-inequality-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244d4",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comparison with the Greater Than Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comparison-with-the-greater-than-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-or-equal-to-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244d5",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comparison with the Greater Than Or Equal To Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comparison-with-the-greater-than-or-equal-to-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-less-than-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244d6",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comparison with the Less Than Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comparison-with-the-less-than-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-less-than-or-equal-to-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244d7",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comparison with the Less Than Or Equal To Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comparison-with-the-less-than-or-equal-to-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-and-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244d8",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comparisons with the Logical And Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comparisons-with-the-logical-and-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-or-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244d9",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Comparisons with the Logical Or Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "comparisons-with-the-logical-or-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/introducing-else-statements",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244da",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Introducing Else Statements",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "introducing-else-statements"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/introducing-else-if-statements",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244db",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Introducing Else If Statements",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "introducing-else-if-statements"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/logical-order-in-if-else-statements",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "5690307fddb111c6084545d7",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Logical Order in If Else Statements",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "logical-order-in-if-else-statements"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/chaining-if-else-statements",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244dc",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Chaining If Else Statements",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "chaining-if-else-statements"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/golf-code",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "5664820f61c48e80c9fa476c",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Golf Code",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "golf-code"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/selecting-from-many-options-with-switch-statements",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244dd",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Selecting from Many Options with Switch Statements",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "selecting-from-many-options-with-switch-statements"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/adding-a-default-option-in-switch-statements",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244de",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Adding a Default Option in Switch Statements",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "adding-a-default-option-in-switch-statements"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/multiple-identical-options-in-switch-statements",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244df",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Multiple Identical Options in Switch Statements",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "multiple-identical-options-in-switch-statements"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/replacing-if-else-chains-with-switch",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244e0",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Replacing If Else Chains with Switch",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "replacing-if-else-chains-with-switch"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/returning-boolean-values-from-functions",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "5679ceb97cbaa8c51670a16b",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Returning Boolean Values from Functions",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "returning-boolean-values-from-functions"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/return-early-pattern-for-functions",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244c4",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Return Early Pattern for Functions",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "return-early-pattern-for-functions"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/counting-cards",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "565bbe00e9cc8ac0725390f4",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Counting Cards",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "counting-cards"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/build-javascript-objects",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56bbb991ad1ed5201cd392d0",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Build JavaScript Objects",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "build-javascript-objects"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-dot-notation",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244c7",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Accessing Object Properties with Dot Notation",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "accessing-object-properties-with-dot-notation"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-bracket-notation",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244c8",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Accessing Object Properties with Bracket Notation",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "accessing-object-properties-with-bracket-notation"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244c9",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Accessing Object Properties with Variables",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "accessing-object-properties-with-variables"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/updating-object-properties",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56bbb991ad1ed5201cd392d1",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Updating Object Properties",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "updating-object-properties"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/add-new-properties-to-a-javascript-object",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56bbb991ad1ed5201cd392d2",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Add New Properties to a JavaScript Object",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "add-new-properties-to-a-javascript-object"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/delete-properties-from-a-javascript-object",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56bbb991ad1ed5201cd392d3",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Delete Properties from a JavaScript Object",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "delete-properties-from-a-javascript-object"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/using-objects-for-lookups",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244ca",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Using Objects for Lookups",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "using-objects-for-lookups"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/testing-objects-for-properties",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "567af2437cbaa8c51670a16c",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Testing Objects for Properties",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "testing-objects-for-properties"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulating-complex-objects",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244cb",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Manipulating Complex Objects",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "manipulating-complex-objects"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-objects",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244cc",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Accessing Nested Objects",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "accessing-nested-objects"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244cd",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Accessing Nested Arrays",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "accessing-nested-arrays"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/record-collection",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244cf",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Record Collection",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "record-collection"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-while-loops",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c11feddfaeb1bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Iterate with JavaScript While Loops",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "iterate-with-javascript-while-loops"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c11feddfaeb5bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Iterate with JavaScript For Loops",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "iterate-with-javascript-for-loops"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-odd-numbers-with-a-for-loop",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56104e9e514f539506016a5c",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Iterate Odd Numbers With a For Loop",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "iterate-odd-numbers-with-a-for-loop"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/count-backwards-with-a-for-loop",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56105e7b514f539506016a5e",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Count Backwards With a For Loop",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "count-backwards-with-a-for-loop"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-through-an-array-with-a-for-loop",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "5675e877dbd60be8ad28edc6",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Iterate Through an Array with a For Loop",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "iterate-through-an-array-with-a-for-loop"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/nesting-for-loops",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "56533eb9ac21ba0edf2244e1",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Nesting For Loops",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "nesting-for-loops"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-do---while-loops",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "5a2efd662fb457916e1fe604",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Iterate with JavaScript Do...While Loops",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "iterate-with-javascript-do---while-loops"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/replace-loops-using-recursion",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "5cfa3679138e7d9595b9d9d4",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Replace Loops using Recursion",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "replace-loops-using-recursion"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "5688e62ea601b2482ff8422b",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Profile Lookup",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "profile-lookup"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/generate-random-fractions-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c11feddfaeb9bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Generate Random Fractions with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "generate-random-fractions-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/generate-random-whole-numbers-with-javascript",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c12feddfaeb1bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Generate Random Whole Numbers with JavaScript",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "generate-random-whole-numbers-with-javascript"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/generate-random-whole-numbers-within-a-range",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "cf1111c1c12feddfaeb2bdef",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Generate Random Whole Numbers within a Range",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "generate-random-whole-numbers-within-a-range"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-the-parseint-function",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "587d7b7e367417b2b2512b23",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use the parseInt Function",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-parseint-function"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-the-parseint-function-with-a-radix",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "587d7b7e367417b2b2512b22",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use the parseInt Function with a Radix",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-parseint-function-with-a-radix"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-the-conditional-ternary-operator",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "587d7b7e367417b2b2512b24",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use the Conditional (Ternary) Operator",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-conditional-ternary-operator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-multiple-conditional-ternary-operators",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "587d7b7e367417b2b2512b21",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use Multiple Conditional (Ternary) Operators",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-multiple-conditional-ternary-operators"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-countdown",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "5cd9a70215d3c4e65518328f",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use Recursion to Create a Countdown",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-recursion-to-create-a-countdown"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-range-of-numbers",
-                        "blockName": "Basic JavaScript"
-                    },
-                    "id": "5cc0bd7a49b71cb96132e54c",
-                    "block": "basic-javascript",
-                    "challengeType": 1,
-                    "title": "Use Recursion to Create a Range of Numbers",
-                    "order": 1,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-recursion-to-create-a-range-of-numbers"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/explore-differences-between-the-var-and-let-keywords",
-                        "blockName": "ES6"
-                    },
-                    "id": "587d7b87367417b2b2512b3f",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Explore Differences Between the var and let Keywords",
+                        "slug": "/learn/front-end-libraries/bootstrap/use-responsive-design-with-bootstrap-fluid-containers",
+                        "blockName": "Bootstrap"
+                    },
+                    "id": "bad87fee1348bd9acde08712",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Use Responsive Design with Bootstrap Fluid Containers",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "explore-differences-between-the-var-and-let-keywords"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-responsive-design-with-bootstrap-fluid-containers"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/compare-scopes-of-the-var-and-let-keywords",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/make-images-mobile-responsive",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b87367417b2b2512b40",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Compare Scopes of the var and let Keywords",
+                    "id": "bad87fee1348bd9acde08812",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Make Images Mobile Responsive",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "compare-scopes-of-the-var-and-let-keywords"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "make-images-mobile-responsive"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/declare-a-read-only-variable-with-the-const-keyword",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/center-text-with-bootstrap",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b87367417b2b2512b41",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Declare a Read-Only Variable with the const Keyword",
+                    "id": "bad87fee1348bd8acde08812",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Center Text with Bootstrap",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "declare-a-read-only-variable-with-the-const-keyword"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "center-text-with-bootstrap"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/mutate-an-array-declared-with-const",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/create-a-bootstrap-button",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b87367417b2b2512b42",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Mutate an Array Declared with const",
+                    "id": "bad87fee1348cd8acdf08812",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Create a Bootstrap Button",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "mutate-an-array-declared-with-const"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-bootstrap-button"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/prevent-object-mutation",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/create-a-block-element-bootstrap-button",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "598f48a36c8c40764b4e52b3",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Prevent Object Mutation",
+                    "id": "bad87fee1348cd8acef08812",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Create a Block Element Bootstrap Button",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "prevent-object-mutation"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-block-element-bootstrap-button"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-arrow-functions-to-write-concise-anonymous-functions",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/taste-the-bootstrap-button-color-rainbow",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b87367417b2b2512b43",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use Arrow Functions to Write Concise Anonymous Functions",
+                    "id": "bad87fee1348cd8acef08811",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Taste the Bootstrap Button Color Rainbow",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-arrow-functions-to-write-concise-anonymous-functions"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "taste-the-bootstrap-button-color-rainbow"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/write-arrow-functions-with-parameters",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/call-out-optional-actions-with-btn-info",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b88367417b2b2512b44",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Write Arrow Functions with Parameters",
+                    "id": "bad87fee1348cd8acef08813",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Call out Optional Actions with btn-info",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "write-arrow-functions-with-parameters"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "call-out-optional-actions-with-btn-info"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/set-default-parameters-for-your-functions",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/warn-your-users-of-a-dangerous-action-with-btn-danger",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b88367417b2b2512b46",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Set Default Parameters for Your Functions",
+                    "id": "bad87fee1348ce8acef08814",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Warn Your Users of a Dangerous Action with btn-danger",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "set-default-parameters-for-your-functions"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "warn-your-users-of-a-dangerous-action-with-btn-danger"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-the-rest-parameter-with-function-parameters",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/use-the-bootstrap-grid-to-put-elements-side-by-side",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b88367417b2b2512b47",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use the Rest Parameter with Function Parameters",
+                    "id": "bad88fee1348ce8acef08815",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Use the Bootstrap Grid to Put Elements Side By Side",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-rest-parameter-with-function-parameters"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-the-bootstrap-grid-to-put-elements-side-by-side"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-the-spread-operator-to-evaluate-arrays-in-place",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/ditch-custom-css-for-bootstrap",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b89367417b2b2512b48",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use the Spread Operator to Evaluate Arrays In-Place",
+                    "id": "bad87fee1347bd9aedf08845",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Ditch Custom CSS for Bootstrap",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-spread-operator-to-evaluate-arrays-in-place"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "ditch-custom-css-for-bootstrap"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-to-extract-values-from-objects",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/use-a-span-to-target-inline-elements",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "5cfa550e84205a357704ccb6",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use Destructuring Assignment to Extract Values from Objects",
+                    "id": "bad87fee1348bd9aedf08845",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Use a span to Target Inline Elements",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-destructuring-assignment-to-extract-values-from-objects"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-a-span-to-target-inline-elements"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-to-assign-variables-from-objects",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/create-a-custom-heading",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b89367417b2b2512b49",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use Destructuring Assignment to Assign Variables from Objects",
+                    "id": "bad87fee1348bd9aede08845",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Create a Custom Heading",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-destructuring-assignment-to-assign-variables-from-objects"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-custom-heading"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-to-assign-variables-from-nested-objects",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/add-font-awesome-icons-to-our-buttons",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b89367417b2b2512b4a",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use Destructuring Assignment to Assign Variables from Nested Objects",
+                    "id": "bad87fee1348bd9aedd08845",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Add Font Awesome Icons to our Buttons",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-destructuring-assignment-to-assign-variables-from-nested-objects"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "add-font-awesome-icons-to-our-buttons"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-to-assign-variables-from-arrays",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/add-font-awesome-icons-to-all-of-our-buttons",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b89367417b2b2512b4b",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use Destructuring Assignment to Assign Variables from Arrays",
+                    "id": "bad87fee1348bd9aedc08845",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Add Font Awesome Icons to all of our Buttons",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-destructuring-assignment-to-assign-variables-from-arrays"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "add-font-awesome-icons-to-all-of-our-buttons"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-with-the-rest-parameter-to-reassign-array-elements",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/responsively-style-radio-buttons",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b8a367417b2b2512b4c",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use Destructuring Assignment with the Rest Parameter to Reassign Array Elements",
+                    "id": "bad87fee1348bd9aedb08845",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Responsively Style Radio Buttons",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-destructuring-assignment-with-the-rest-parameter-to-reassign-array-elements"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "responsively-style-radio-buttons"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-to-pass-an-object-as-a-functions-parameters",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/responsively-style-checkboxes",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b8a367417b2b2512b4d",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use Destructuring Assignment to Pass an Object as a Function's Parameters",
+                    "id": "bad87fee1348bd9aeda08845",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Responsively Style Checkboxes",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-destructuring-assignment-to-pass-an-object-as-a-functions-parameters"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "responsively-style-checkboxes"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/create-strings-using-template-literals",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/style-text-inputs-as-form-controls",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b8a367417b2b2512b4e",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Create Strings using Template Literals",
+                    "id": "bad87fee1348bd9aed908845",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Style Text Inputs as Form Controls",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "create-strings-using-template-literals"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "style-text-inputs-as-form-controls"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/write-concise-object-literal-declarations-using-object-property-shorthand",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/line-up-form-elements-responsively-with-bootstrap",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b8a367417b2b2512b4f",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Write Concise Object Literal Declarations Using Object Property Shorthand",
+                    "id": "bad87fee1348bd9aec908845",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Line up Form Elements Responsively with Bootstrap",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "write-concise-object-literal-declarations-using-object-property-shorthand"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "line-up-form-elements-responsively-with-bootstrap"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/write-concise-declarative-functions-with-es6",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/create-a-bootstrap-headline",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b8b367417b2b2512b50",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Write Concise Declarative Functions with ES6",
+                    "id": "bad87fee1348bd9aec908846",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Create a Bootstrap Headline",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "write-concise-declarative-functions-with-es6"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-bootstrap-headline"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-class-syntax-to-define-a-constructor-function",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/house-our-page-within-a-bootstrap-container-fluid-div",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b8b367417b2b2512b53",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use class Syntax to Define a Constructor Function",
+                    "id": "bad87fee1348bd9aec908746",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "House our page within a Bootstrap container-fluid div",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-class-syntax-to-define-a-constructor-function"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "house-our-page-within-a-bootstrap-container-fluid-div"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-getters-and-setters-to-control-access-to-an-object",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/create-a-bootstrap-row",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "587d7b8c367417b2b2512b54",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use getters and setters to Control Access to an Object",
+                    "id": "bad87fee1348bd9bec908846",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Create a Bootstrap Row",
                     "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-getters-and-setters-to-control-access-to-an-object"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-bootstrap-row"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/create-a-module-script",
-                        "blockName": "ES6"
+                        "slug": "/learn/front-end-libraries/bootstrap/split-your-bootstrap-row",
+                        "blockName": "Bootstrap"
                     },
-                    "id": "5cddbfd622f1a59093ec611d",
-                    "block": "es6",
+                    "id": "bad87fee1348bd9aec908847",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Split Your Bootstrap Row",
+                    "order": 2,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "split-your-bootstrap-row"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/bootstrap/create-bootstrap-wells",
+                        "blockName": "Bootstrap"
+                    },
+                    "id": "bad87fee1348bd9aec908848",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Create Bootstrap Wells",
+                    "order": 2,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-bootstrap-wells"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/bootstrap/add-elements-within-your-bootstrap-wells",
+                        "blockName": "Bootstrap"
+                    },
+                    "id": "bad87fee1348bd9aec908849",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Add Elements within Your Bootstrap Wells",
+                    "order": 2,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "add-elements-within-your-bootstrap-wells"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/bootstrap/apply-the-default-bootstrap-button-style",
+                        "blockName": "Bootstrap"
+                    },
+                    "id": "bad87fee1348bd9aec908850",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Apply the Default Bootstrap Button Style",
+                    "order": 2,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "apply-the-default-bootstrap-button-style"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/bootstrap/create-a-class-to-target-with-jquery-selectors",
+                        "blockName": "Bootstrap"
+                    },
+                    "id": "bad87fee1348bd9aec908852",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Create a Class to Target with jQuery Selectors",
+                    "order": 2,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-class-to-target-with-jquery-selectors"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/bootstrap/add-id-attributes-to-bootstrap-elements",
+                        "blockName": "Bootstrap"
+                    },
+                    "id": "bad87fee1348bd9aec908853",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Add id Attributes to Bootstrap Elements",
+                    "order": 2,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "add-id-attributes-to-bootstrap-elements"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/bootstrap/label-bootstrap-wells",
+                        "blockName": "Bootstrap"
+                    },
+                    "id": "bad87fee1348bd9aec908854",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Label Bootstrap Wells",
+                    "order": 2,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "label-bootstrap-wells"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/bootstrap/give-each-element-a-unique-id",
+                        "blockName": "Bootstrap"
+                    },
+                    "id": "bad87fee1348bd9aec908855",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Give Each Element a Unique id",
+                    "order": 2,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "give-each-element-a-unique-id"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/bootstrap/label-bootstrap-buttons",
+                        "blockName": "Bootstrap"
+                    },
+                    "id": "bad87fee1348bd9aec908856",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Label Bootstrap Buttons",
+                    "order": 2,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "label-bootstrap-buttons"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/bootstrap/use-comments-to-clarify-code",
+                        "blockName": "Bootstrap"
+                    },
+                    "id": "bad87fee1348bd9aec908857",
+                    "block": "bootstrap",
+                    "challengeType": 0,
+                    "title": "Use Comments to Clarify Code",
+                    "order": 2,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-comments-to-clarify-code"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/jquery/learn-how-script-tags-and-document-ready-work",
+                        "blockName": "jQuery"
+                    },
+                    "id": "bad87fee1348bd9acdd08826",
+                    "block": "jquery",
                     "challengeType": 6,
-                    "title": "Create a Module Script",
-                    "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "create-a-module-script"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use-export-to-share-a-code-block",
-                        "blockName": "ES6"
-                    },
-                    "id": "587d7b8c367417b2b2512b56",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use export to Share a Code Block",
-                    "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-export-to-share-a-code-block"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/reuse-javascript-code-using-import",
-                        "blockName": "ES6"
-                    },
-                    "id": "587d7b8c367417b2b2512b55",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Reuse JavaScript Code Using import",
-                    "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "reuse-javascript-code-using-import"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/use--to-import-everything-from-a-file",
-                        "blockName": "ES6"
-                    },
-                    "id": "587d7b8c367417b2b2512b57",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Use * to Import Everything from a File",
-                    "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use--to-import-everything-from-a-file"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/create-an-export-fallback-with-export-default",
-                        "blockName": "ES6"
-                    },
-                    "id": "587d7b8c367417b2b2512b58",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Create an Export Fallback with export default",
-                    "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "create-an-export-fallback-with-export-default"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/import-a-default-export",
-                        "blockName": "ES6"
-                    },
-                    "id": "587d7b8d367417b2b2512b59",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Import a Default Export",
-                    "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "import-a-default-export"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/create-a-javascript-promise",
-                        "blockName": "ES6"
-                    },
-                    "id": "5cdafbb0291309899753167f",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Create a JavaScript Promise",
-                    "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "create-a-javascript-promise"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/complete-a-promise-with-resolve-and-reject",
-                        "blockName": "ES6"
-                    },
-                    "id": "5cdafbc32913098997531680",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Complete a Promise with resolve and reject",
-                    "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "complete-a-promise-with-resolve-and-reject"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/handle-a-fulfilled-promise-with-then",
-                        "blockName": "ES6"
-                    },
-                    "id": "5cdafbd72913098997531681",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Handle a Fulfilled Promise with then",
-                    "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "handle-a-fulfilled-promise-with-then"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/es6/handle-a-rejected-promise-with-catch",
-                        "blockName": "ES6"
-                    },
-                    "id": "5cdafbe72913098997531682",
-                    "block": "es6",
-                    "challengeType": 1,
-                    "title": "Handle a Rejected Promise with catch",
-                    "order": 2,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "handle-a-rejected-promise-with-catch"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/using-the-test-method",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7db3367417b2b2512b8e",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Using the Test Method",
+                    "title": "Learn How Script Tags and Document Ready Work",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "using-the-test-method"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "learn-how-script-tags-and-document-ready-work"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-literal-strings",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/target-html-elements-with-selectors-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db3367417b2b2512b8f",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Literal Strings",
+                    "id": "bad87fee1348bd9bedc08826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Target HTML Elements with Selectors Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-literal-strings"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "target-html-elements-with-selectors-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-a-literal-string-with-different-possibilities",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/target-elements-by-class-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db4367417b2b2512b90",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match a Literal String with Different Possibilities",
+                    "id": "bad87fee1348bd9aedc08826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Target Elements by Class Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-a-literal-string-with-different-possibilities"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "target-elements-by-class-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/ignore-case-while-matching",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/target-elements-by-id-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db4367417b2b2512b91",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Ignore Case While Matching",
+                    "id": "bad87fee1348bd9aeda08826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Target Elements by id Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "ignore-case-while-matching"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "target-elements-by-id-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/extract-matches",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/delete-your-jquery-functions",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db4367417b2b2512b92",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Extract Matches",
+                    "id": "bad87fee1348bd9aeda08726",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Delete Your jQuery Functions",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "extract-matches"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "delete-your-jquery-functions"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/find-more-than-the-first-match",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/target-the-same-element-with-multiple-jquery-selectors",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db4367417b2b2512b93",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Find More Than the First Match",
+                    "id": "bad87fee1348bd9aed908626",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Target the Same Element with Multiple jQuery Selectors",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "find-more-than-the-first-match"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "target-the-same-element-with-multiple-jquery-selectors"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-anything-with-wildcard-period",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/remove-classes-from-an-element-with-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db5367417b2b2512b94",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Anything with Wildcard Period",
+                    "id": "bad87fee1348bd9aed918626",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Remove Classes from an Element with jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-anything-with-wildcard-period"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "remove-classes-from-an-element-with-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-single-character-with-multiple-possibilities",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/change-the-css-of-an-element-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db5367417b2b2512b95",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Single Character with Multiple Possibilities",
+                    "id": "bad87fee1348bd9aed908826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Change the CSS of an Element Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-single-character-with-multiple-possibilities"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "change-the-css-of-an-element-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-letters-of-the-alphabet",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/disable-an-element-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db5367417b2b2512b96",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Letters of the Alphabet",
+                    "id": "bad87fee1348bd9aed808826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Disable an Element Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-letters-of-the-alphabet"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "disable-an-element-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-numbers-and-letters-of-the-alphabet",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/change-text-inside-an-element-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db5367417b2b2512b97",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Numbers and Letters of the Alphabet",
+                    "id": "564944c91be2204b269d51e3",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Change Text Inside an Element Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-numbers-and-letters-of-the-alphabet"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "change-text-inside-an-element-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-single-characters-not-specified",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/remove-an-element-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db6367417b2b2512b98",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Single Characters Not Specified",
+                    "id": "bad87fee1348bd9aed708826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Remove an Element Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-single-characters-not-specified"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "remove-an-element-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-characters-that-occur-one-or-more-times",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/use-appendto-to-move-elements-with-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db6367417b2b2512b99",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Characters that Occur One or More Times",
+                    "id": "bad87fee1348bd9aed608826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Use appendTo to Move Elements with jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-characters-that-occur-one-or-more-times"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-appendto-to-move-elements-with-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-characters-that-occur-zero-or-more-times",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/clone-an-element-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db6367417b2b2512b9a",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Characters that Occur Zero or More Times",
+                    "id": "bad87fee1348bd9aed508826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Clone an Element Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-characters-that-occur-zero-or-more-times"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "clone-an-element-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/find-characters-with-lazy-matching",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/target-the-parent-of-an-element-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db6367417b2b2512b9b",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Find Characters with Lazy Matching",
+                    "id": "bad87fee1348bd9aed308826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Target the Parent of an Element Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "find-characters-with-lazy-matching"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "target-the-parent-of-an-element-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/find-one-or-more-criminals-in-a-hunt",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/target-the-children-of-an-element-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db7367417b2b2512b9c",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Find One or More Criminals in a Hunt",
+                    "id": "bad87fee1348bd9aed208826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Target the Children of an Element Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "find-one-or-more-criminals-in-a-hunt"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "target-the-children-of-an-element-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-beginning-string-patterns",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/target-a-specific-child-of-an-element-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db7367417b2b2512b9d",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Beginning String Patterns",
+                    "id": "bad87fee1348bd9aed108826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Target a Specific Child of an Element Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-beginning-string-patterns"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "target-a-specific-child-of-an-element-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-ending-string-patterns",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/target-even-elements-using-jquery",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db7367417b2b2512b9e",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Ending String Patterns",
+                    "id": "bad87fee1348bd9aed008826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Target Even Elements Using jQuery",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-ending-string-patterns"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "target-even-elements-using-jquery"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-all-letters-and-numbers",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/jquery/use-jquery-to-modify-the-entire-page",
+                        "blockName": "jQuery"
                     },
-                    "id": "587d7db7367417b2b2512b9f",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match All Letters and Numbers",
+                    "id": "bad87fee1348bd9aecb08826",
+                    "block": "jquery",
+                    "challengeType": 6,
+                    "title": "Use jQuery to Modify the Entire Page",
                     "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-all-letters-and-numbers"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-jquery-to-modify-the-entire-page"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-everything-but-letters-and-numbers",
-                        "blockName": "Regular Expressions"
+                        "slug": "/learn/front-end-libraries/sass/store-data-with-sass-variables",
+                        "blockName": "Sass"
                     },
-                    "id": "587d7db8367417b2b2512ba0",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Everything But Letters and Numbers",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-everything-but-letters-and-numbers"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-all-numbers",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "5d712346c441eddfaeb5bdef",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match All Numbers",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-all-numbers"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-all-non-numbers",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7db8367417b2b2512ba1",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match All Non-Numbers",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-all-non-numbers"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/restrict-possible-usernames",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7db8367417b2b2512ba2",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Restrict Possible Usernames",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "restrict-possible-usernames"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-whitespace",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7db8367417b2b2512ba3",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Whitespace",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-whitespace"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/match-non-whitespace-characters",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7db9367417b2b2512ba4",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Match Non-Whitespace Characters",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "match-non-whitespace-characters"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/specify-upper-and-lower-number-of-matches",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7db9367417b2b2512ba5",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Specify Upper and Lower Number of Matches",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "specify-upper-and-lower-number-of-matches"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/specify-only-the-lower-number-of-matches",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7db9367417b2b2512ba6",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Specify Only the Lower Number of Matches",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "specify-only-the-lower-number-of-matches"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/specify-exact-number-of-matches",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7db9367417b2b2512ba7",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Specify Exact Number of Matches",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "specify-exact-number-of-matches"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/check-for-all-or-none",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7dba367417b2b2512ba8",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Check for All or None",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "check-for-all-or-none"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/positive-and-negative-lookahead",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7dba367417b2b2512ba9",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Positive and Negative Lookahead",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "positive-and-negative-lookahead"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/check-for-mixed-grouping-of-characters",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "5c3dda8b4d8df89bea71600f",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Check For Mixed Grouping of Characters",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "check-for-mixed-grouping-of-characters"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/reuse-patterns-using-capture-groups",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7dbb367417b2b2512baa",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Reuse Patterns Using Capture Groups",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "reuse-patterns-using-capture-groups"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/use-capture-groups-to-search-and-replace",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7dbb367417b2b2512bab",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Use Capture Groups to Search and Replace",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-capture-groups-to-search-and-replace"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/regular-expressions/remove-whitespace-from-start-and-end",
-                        "blockName": "Regular Expressions"
-                    },
-                    "id": "587d7dbb367417b2b2512bac",
-                    "block": "regular-expressions",
-                    "challengeType": 1,
-                    "title": "Remove Whitespace from Start and End",
-                    "order": 3,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "remove-whitespace-from-start-and-end"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/use-the-javascript-console-to-check-the-value-of-a-variable",
-                        "blockName": "Debugging"
-                    },
-                    "id": "587d7b83367417b2b2512b33",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Use the JavaScript Console to Check the Value of a Variable",
+                    "id": "587d7dbd367417b2b2512bb4",
+                    "block": "sass",
+                    "challengeType": 0,
+                    "title": "Store Data with Sass Variables",
                     "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-javascript-console-to-check-the-value-of-a-variable"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "store-data-with-sass-variables"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/understanding-the-differences-between-the-freecodecamp-and-browser-console",
-                        "blockName": "Debugging"
+                        "slug": "/learn/front-end-libraries/sass/nest-css-with-sass",
+                        "blockName": "Sass"
                     },
-                    "id": "587d7b83367417b2b2512b37",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Understanding the Differences between the freeCodeCamp and Browser Console",
+                    "id": "587d7dbd367417b2b2512bb5",
+                    "block": "sass",
+                    "challengeType": 0,
+                    "title": "Nest CSS with Sass",
                     "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understanding-the-differences-between-the-freecodecamp-and-browser-console"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "nest-css-with-sass"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/use-typeof-to-check-the-type-of-a-variable",
-                        "blockName": "Debugging"
+                        "slug": "/learn/front-end-libraries/sass/create-reusable-css-with-mixins",
+                        "blockName": "Sass"
                     },
-                    "id": "587d7b84367417b2b2512b34",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Use typeof to Check the Type of a Variable",
+                    "id": "587d7dbd367417b2b2512bb6",
+                    "block": "sass",
+                    "challengeType": 0,
+                    "title": "Create Reusable CSS with Mixins",
                     "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-typeof-to-check-the-type-of-a-variable"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-reusable-css-with-mixins"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/catch-misspelled-variable-and-function-names",
-                        "blockName": "Debugging"
+                        "slug": "/learn/front-end-libraries/sass/use-if-and-else-to-add-logic-to-your-styles",
+                        "blockName": "Sass"
                     },
-                    "id": "587d7b84367417b2b2512b35",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Catch Misspelled Variable and Function Names",
+                    "id": "587d7dbe367417b2b2512bb8",
+                    "block": "sass",
+                    "challengeType": 0,
+                    "title": "Use @if and @else to Add Logic To Your Styles",
                     "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "catch-misspelled-variable-and-function-names"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-if-and-else-to-add-logic-to-your-styles"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/catch-unclosed-parentheses-brackets-braces-and-quotes",
-                        "blockName": "Debugging"
+                        "slug": "/learn/front-end-libraries/sass/use-for-to-create-a-sass-loop",
+                        "blockName": "Sass"
                     },
-                    "id": "587d7b84367417b2b2512b36",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Catch Unclosed Parentheses, Brackets, Braces and Quotes",
+                    "id": "587d7dbe367417b2b2512bb9",
+                    "block": "sass",
+                    "challengeType": 0,
+                    "title": "Use @for to Create a Sass Loop",
                     "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "catch-unclosed-parentheses-brackets-braces-and-quotes"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-for-to-create-a-sass-loop"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/catch-mixed-usage-of-single-and-double-quotes",
-                        "blockName": "Debugging"
+                        "slug": "/learn/front-end-libraries/sass/use-each-to-map-over-items-in-a-list",
+                        "blockName": "Sass"
                     },
-                    "id": "587d7b84367417b2b2512b37",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Catch Mixed Usage of Single and Double Quotes",
+                    "id": "587d7dbf367417b2b2512bba",
+                    "block": "sass",
+                    "challengeType": 0,
+                    "title": "Use @each to Map Over Items in a List",
                     "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "catch-mixed-usage-of-single-and-double-quotes"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-each-to-map-over-items-in-a-list"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/catch-use-of-assignment-operator-instead-of-equality-operator",
-                        "blockName": "Debugging"
+                        "slug": "/learn/front-end-libraries/sass/apply-a-style-until-a-condition-is-met-with-while",
+                        "blockName": "Sass"
                     },
-                    "id": "587d7b85367417b2b2512b38",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Catch Use of Assignment Operator Instead of Equality Operator",
+                    "id": "587d7dbf367417b2b2512bbb",
+                    "block": "sass",
+                    "challengeType": 0,
+                    "title": "Apply a Style Until a Condition is Met with @while",
                     "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "catch-use-of-assignment-operator-instead-of-equality-operator"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "apply-a-style-until-a-condition-is-met-with-while"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/catch-missing-open-and-closing-parenthesis-after-a-function-call",
-                        "blockName": "Debugging"
+                        "slug": "/learn/front-end-libraries/sass/split-your-styles-into-smaller-chunks-with-partials",
+                        "blockName": "Sass"
                     },
-                    "id": "587d7b85367417b2b2512b39",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Catch Missing Open and Closing Parenthesis After a Function Call",
+                    "id": "587d7dbf367417b2b2512bbc",
+                    "block": "sass",
+                    "challengeType": 0,
+                    "title": "Split Your Styles into Smaller Chunks with Partials",
                     "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "catch-missing-open-and-closing-parenthesis-after-a-function-call"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "split-your-styles-into-smaller-chunks-with-partials"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/catch-arguments-passed-in-the-wrong-order-when-calling-a-function",
-                        "blockName": "Debugging"
+                        "slug": "/learn/front-end-libraries/sass/extend-one-set-of-css-styles-to-another-element",
+                        "blockName": "Sass"
                     },
-                    "id": "587d7b85367417b2b2512b3a",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Catch Arguments Passed in the Wrong Order When Calling a Function",
+                    "id": "587d7fa5367417b2b2512bbd",
+                    "block": "sass",
+                    "challengeType": 0,
+                    "title": "Extend One Set of CSS Styles to Another Element",
                     "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "catch-arguments-passed-in-the-wrong-order-when-calling-a-function"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "extend-one-set-of-css-styles-to-another-element"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/catch-off-by-one-errors-when-using-indexing",
-                        "blockName": "Debugging"
+                        "slug": "/learn/front-end-libraries/react/create-a-simple-jsx-element",
+                        "blockName": "React"
                     },
-                    "id": "587d7b86367417b2b2512b3b",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Catch Off By One Errors When Using Indexing",
-                    "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "catch-off-by-one-errors-when-using-indexing"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/use-caution-when-reinitializing-variables-inside-a-loop",
-                        "blockName": "Debugging"
-                    },
-                    "id": "587d7b86367417b2b2512b3c",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Use Caution When Reinitializing Variables Inside a Loop",
-                    "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-caution-when-reinitializing-variables-inside-a-loop"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/debugging/prevent-infinite-loops-with-a-valid-terminal-condition",
-                        "blockName": "Debugging"
-                    },
-                    "id": "587d7b86367417b2b2512b3d",
-                    "block": "debugging",
-                    "challengeType": 1,
-                    "title": "Prevent Infinite Loops with a Valid Terminal Condition",
-                    "order": 4,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "prevent-infinite-loops-with-a-valid-terminal-condition"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/use-an-array-to-store-a-collection-of-data",
-                        "blockName": "Basic Data Structures"
-                    },
-                    "id": "587d7b7e367417b2b2512b20",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Use an Array to Store a Collection of Data",
+                    "id": "587d7dbc367417b2b2512bb1",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Create a Simple JSX Element",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-an-array-to-store-a-collection-of-data"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-simple-jsx-element"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/access-an-arrays-contents-using-bracket-notation",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/create-a-complex-jsx-element",
+                        "blockName": "React"
                     },
-                    "id": "5a661e0f1068aca922b3ef17",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Access an Array's Contents Using Bracket Notation",
+                    "id": "5a24bbe0dba28a8d3cbd4c5d",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Create a Complex JSX Element",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "access-an-arrays-contents-using-bracket-notation"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-complex-jsx-element"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/add-items-to-an-array-with-push-and-unshift",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/add-comments-in-jsx",
+                        "blockName": "React"
                     },
-                    "id": "587d78b2367417b2b2512b0e",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Add Items to an Array with push() and unshift()",
+                    "id": "5a24bbe0dba28a8d3cbd4c5e",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Add Comments in JSX",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "add-items-to-an-array-with-push-and-unshift"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "add-comments-in-jsx"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/remove-items-from-an-array-with-pop-and-shift",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/render-html-elements-to-the-dom",
+                        "blockName": "React"
                     },
-                    "id": "587d78b2367417b2b2512b0f",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Remove Items from an Array with pop() and shift()",
+                    "id": "5a24bbe0dba28a8d3cbd4c5f",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Render HTML Elements to the DOM",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "remove-items-from-an-array-with-pop-and-shift"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "render-html-elements-to-the-dom"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/remove-items-using-splice",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/define-an-html-class-in-jsx",
+                        "blockName": "React"
                     },
-                    "id": "587d78b2367417b2b2512b10",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Remove Items Using splice()",
+                    "id": "5a24c314108439a4d4036160",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Define an HTML Class in JSX",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "remove-items-using-splice"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "define-an-html-class-in-jsx"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/add-items-using-splice",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/learn-about-self-closing-jsx-tags",
+                        "blockName": "React"
                     },
-                    "id": "587d78b3367417b2b2512b11",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Add Items Using splice()",
+                    "id": "5a24c314108439a4d4036161",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Learn About Self-Closing JSX Tags",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "add-items-using-splice"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "learn-about-self-closing-jsx-tags"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/create-a-stateless-functional-component",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7a367417b2b2512b12",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Copy Array Items Using slice()",
+                    "id": "5a24c314108439a4d4036162",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Create a Stateless Functional Component",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "copy-array-items-using-slice"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-stateless-functional-component"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-an-array-with-the-spread-operator",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/create-a-react-component",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7b367417b2b2512b13",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Copy an Array with the Spread Operator",
+                    "id": "5a24c314108439a4d4036163",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Create a React Component",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "copy-an-array-with-the-spread-operator"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-react-component"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/create-a-component-with-composition",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7b367417b2b2512b17",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Combine Arrays with the Spread Operator",
+                    "id": "5a24c314108439a4d4036164",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Create a Component with Composition",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "combine-arrays-with-the-spread-operator"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-component-with-composition"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/check-for-the-presence-of-an-element-with-indexof",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/use-react-to-render-nested-components",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7b367417b2b2512b14",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Check For The Presence of an Element With indexOf()",
+                    "id": "5a24c314108439a4d4036165",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use React to Render Nested Components",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "check-for-the-presence-of-an-element-with-indexof"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-react-to-render-nested-components"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/iterate-through-all-an-arrays-items-using-for-loops",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/compose-react-components",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7b367417b2b2512b15",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Iterate Through All an Array's Items Using For Loops",
+                    "id": "5a24c314108439a4d4036166",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Compose React Components",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "iterate-through-all-an-arrays-items-using-for-loops"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "compose-react-components"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/create-complex-multi-dimensional-arrays",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/render-a-class-component-to-the-dom",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7b367417b2b2512b16",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Create complex multi-dimensional arrays",
+                    "id": "5a24c314108439a4d4036167",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Render a Class Component to the DOM",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "create-complex-multi-dimensional-arrays"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "render-a-class-component-to-the-dom"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/add-key-value-pairs-to-javascript-objects",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/write-a-react-component-from-scratch",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7c367417b2b2512b18",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Add Key-Value Pairs to JavaScript Objects",
+                    "id": "5a24c314108439a4d4036168",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Write a React Component from Scratch",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "add-key-value-pairs-to-javascript-objects"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "write-a-react-component-from-scratch"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/modify-an-object-nested-within-an-object",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/pass-props-to-a-stateless-functional-component",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7c367417b2b2512b19",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Modify an Object Nested Within an Object",
+                    "id": "5a24c314108439a4d4036169",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Pass Props to a Stateless Functional Component",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "modify-an-object-nested-within-an-object"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "pass-props-to-a-stateless-functional-component"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/access-property-names-with-bracket-notation",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/pass-an-array-as-props",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7c367417b2b2512b1a",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Access Property Names with Bracket Notation",
+                    "id": "5a24c314108439a4d403616a",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Pass an Array as Props",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "access-property-names-with-bracket-notation"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "pass-an-array-as-props"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/use-the-delete-keyword-to-remove-object-properties",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/use-default-props",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7c367417b2b2512b1b",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Use the delete Keyword to Remove Object Properties",
+                    "id": "5a24c314108439a4d403616b",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use Default Props",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-delete-keyword-to-remove-object-properties"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-default-props"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/check-if-an-object-has-a-property",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/override-default-props",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7d367417b2b2512b1c",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Check if an Object has a Property",
+                    "id": "5a24c314108439a4d403616c",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Override Default Props",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "check-if-an-object-has-a-property"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "override-default-props"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/iterate-through-the-keys-of-an-object-with-a-for---in-statement",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/use-proptypes-to-define-the-props-you-expect",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7d367417b2b2512b1d",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Iterate Through the Keys of an Object with a for...in Statement",
+                    "id": "5a24c314108439a4d403616d",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use PropTypes to Define the Props You Expect",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "iterate-through-the-keys-of-an-object-with-a-for---in-statement"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-proptypes-to-define-the-props-you-expect"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/generate-an-array-of-all-object-keys-with-object-keys",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/access-props-using-this-props",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7d367417b2b2512b1e",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Generate an Array of All Object Keys with Object.keys()",
+                    "id": "5a24c314108439a4d403616e",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Access Props Using this.props",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "generate-an-array-of-all-object-keys-with-object-keys"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "access-props-using-this-props"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-data-structures/modify-an-array-stored-in-an-object",
-                        "blockName": "Basic Data Structures"
+                        "slug": "/learn/front-end-libraries/react/review-using-props-with-stateless-functional-components",
+                        "blockName": "React"
                     },
-                    "id": "587d7b7d367417b2b2512b1f",
-                    "block": "basic-data-structures",
-                    "challengeType": 1,
-                    "title": "Modify an Array Stored in an Object",
+                    "id": "5a24c314108439a4d403616f",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Review Using Props with Stateless Functional Components",
                     "order": 5,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "modify-an-array-stored-in-an-object"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "review-using-props-with-stateless-functional-components"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/convert-celsius-to-fahrenheit",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/react/create-a-stateful-component",
+                        "blockName": "React"
                     },
-                    "id": "56533eb9ac21ba0edf2244b3",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 1,
-                    "title": "Convert Celsius to Fahrenheit",
+                    "id": "5a24c314108439a4d4036170",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Create a Stateful Component",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-stateful-component"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/render-state-in-the-user-interface",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036171",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Render State in the User Interface",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "render-state-in-the-user-interface"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/render-state-in-the-user-interface-another-way",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036172",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Render State in the User Interface Another Way",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "render-state-in-the-user-interface-another-way"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/set-state-with-this-setstate",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036173",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Set State with this.setState",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "set-state-with-this-setstate"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/bind-this-to-a-class-method",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036174",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Bind 'this' to a Class Method",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "bind-this-to-a-class-method"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/use-state-to-toggle-an-element",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036176",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use State to Toggle an Element",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-state-to-toggle-an-element"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/write-a-simple-counter",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036177",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Write a Simple Counter",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "write-a-simple-counter"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/create-a-controlled-input",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036178",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Create a Controlled Input",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-controlled-input"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/create-a-controlled-form",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036179",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Create a Controlled Form",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-controlled-form"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/pass-state-as-props-to-child-components",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d403617a",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Pass State as Props to Child Components",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "pass-state-as-props-to-child-components"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/pass-a-callback-as-props",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d403617b",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Pass a Callback as Props",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "pass-a-callback-as-props"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/use-the-lifecycle-method-componentwillmount",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d403617c",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use the Lifecycle Method componentWillMount",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-the-lifecycle-method-componentwillmount"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/use-the-lifecycle-method-componentdidmount",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d403617d",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use the Lifecycle Method componentDidMount",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-the-lifecycle-method-componentdidmount"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/add-event-listeners",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d403617e",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Add Event Listeners",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "add-event-listeners"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/optimize-re-renders-with-shouldcomponentupdate",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036180",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Optimize Re-Renders with shouldComponentUpdate",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "optimize-re-renders-with-shouldcomponentupdate"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/introducing-inline-styles",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036181",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Introducing Inline Styles",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "introducing-inline-styles"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/add-inline-styles-in-react",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036182",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Add Inline Styles in React",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "add-inline-styles-in-react"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/use-advanced-javascript-in-react-render-method",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036183",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use Advanced JavaScript in React Render Method",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-advanced-javascript-in-react-render-method"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/render-with-an-if-else-condition",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036184",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Render with an If-Else Condition",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "render-with-an-if-else-condition"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/use--for-a-more-concise-conditional",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036185",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use && for a More Concise Conditional",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use--for-a-more-concise-conditional"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/use-a-ternary-expression-for-conditional-rendering",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036187",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use a Ternary Expression for Conditional Rendering",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-a-ternary-expression-for-conditional-rendering"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/render-conditionally-from-props",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036188",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Render Conditionally from Props",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "render-conditionally-from-props"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/change-inline-css-conditionally-based-on-component-state",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d4036189",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Change Inline CSS Conditionally Based on Component State",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "change-inline-css-conditionally-based-on-component-state"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/use-array-map-to-dynamically-render-elements",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d403618a",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use Array.map() to Dynamically Render Elements",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-array-map-to-dynamically-render-elements"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/give-sibling-elements-a-unique-key-attribute",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d403618b",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Give Sibling Elements a Unique Key Attribute",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "give-sibling-elements-a-unique-key-attribute"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/use-array-filter-to-dynamically-filter-an-array",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d403618c",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Use Array.filter() to Dynamically Filter an Array",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-array-filter-to-dynamically-filter-an-array"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react/render-react-on-the-server-with-rendertostring",
+                        "blockName": "React"
+                    },
+                    "id": "5a24c314108439a4d403618d",
+                    "block": "react",
+                    "challengeType": 6,
+                    "title": "Render React on the Server with renderToString",
+                    "order": 5,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "render-react-on-the-server-with-rendertostring"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/redux/create-a-redux-store",
+                        "blockName": "Redux"
+                    },
+                    "id": "5a24c314108439a4d403614b",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Create a Redux Store",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "convert-celsius-to-fahrenheit"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "create-a-redux-store"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/reverse-a-string",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/get-state-from-the-redux-store",
+                        "blockName": "Redux"
                     },
-                    "id": "a202eed8fc186c8434cb6d61",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Reverse a String",
+                    "id": "5a24c314108439a4d403614c",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Get State from the Redux Store",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "reverse-a-string"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "get-state-from-the-redux-store"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/factorialize-a-number",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/define-a-redux-action",
+                        "blockName": "Redux"
                     },
-                    "id": "a302f7aae1aa3152a5b413bc",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Factorialize a Number",
+                    "id": "5a24c314108439a4d403614d",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Define a Redux Action",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "factorialize-a-number"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "define-a-redux-action"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/find-the-longest-word-in-a-string",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/define-an-action-creator",
+                        "blockName": "Redux"
                     },
-                    "id": "a26cbbe9ad8655a977e1ceb5",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Find the Longest Word in a String",
+                    "id": "5a24c314108439a4d403614e",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Define an Action Creator",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "find-the-longest-word-in-a-string"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "define-an-action-creator"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/return-largest-numbers-in-arrays",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/dispatch-an-action-event",
+                        "blockName": "Redux"
                     },
-                    "id": "a789b3483989747d63b0e427",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Return Largest Numbers in Arrays",
+                    "id": "5a24c314108439a4d403614f",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Dispatch an Action Event",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "return-largest-numbers-in-arrays"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "dispatch-an-action-event"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/confirm-the-ending",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/handle-an-action-in-the-store",
+                        "blockName": "Redux"
                     },
-                    "id": "acda2fb1324d9b0fa741e6b5",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Confirm the Ending",
+                    "id": "5a24c314108439a4d4036150",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Handle an Action in the Store",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "confirm-the-ending"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "handle-an-action-in-the-store"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/repeat-a-string-repeat-a-string",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/use-a-switch-statement-to-handle-multiple-actions",
+                        "blockName": "Redux"
                     },
-                    "id": "afcc8d540bea9ea2669306b6",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Repeat a String Repeat a String",
+                    "id": "5a24c314108439a4d4036151",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Use a Switch Statement to Handle Multiple Actions",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "repeat-a-string-repeat-a-string"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-a-switch-statement-to-handle-multiple-actions"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/truncate-a-string",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/use-const-for-action-types",
+                        "blockName": "Redux"
                     },
-                    "id": "ac6993d51946422351508a41",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Truncate a String",
+                    "id": "5a24c314108439a4d4036152",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Use const for Action Types",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "truncate-a-string"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-const-for-action-types"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/finders-keepers",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/register-a-store-listener",
+                        "blockName": "Redux"
                     },
-                    "id": "a6e40f1041b06c996f7b2406",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Finders Keepers",
+                    "id": "5a24c314108439a4d4036153",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Register a Store Listener",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "finders-keepers"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "register-a-store-listener"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/boo-who",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/combine-multiple-reducers",
+                        "blockName": "Redux"
                     },
-                    "id": "a77dbc43c33f39daa4429b4f",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Boo who",
+                    "id": "5a24c314108439a4d4036154",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Combine Multiple Reducers",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "boo-who"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "combine-multiple-reducers"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/title-case-a-sentence",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/send-action-data-to-the-store",
+                        "blockName": "Redux"
                     },
-                    "id": "ab6137d4e35944e21037b769",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Title Case a Sentence",
+                    "id": "5a24c314108439a4d4036155",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Send Action Data to the Store",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "title-case-a-sentence"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "send-action-data-to-the-store"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/slice-and-splice",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/use-middleware-to-handle-asynchronous-actions",
+                        "blockName": "Redux"
                     },
-                    "id": "579e2a2c335b9d72dd32e05c",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Slice and Splice",
+                    "id": "5a24c314108439a4d4036156",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Use Middleware to Handle Asynchronous Actions",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "slice-and-splice"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-middleware-to-handle-asynchronous-actions"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/falsy-bouncer",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/write-a-counter-with-redux",
+                        "blockName": "Redux"
                     },
-                    "id": "adf08ec01beb4f99fc7a68f2",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Falsy Bouncer",
+                    "id": "5a24c314108439a4d4036157",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Write a Counter with Redux",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "falsy-bouncer"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "write-a-counter-with-redux"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/where-do-i-belong",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/never-mutate-state",
+                        "blockName": "Redux"
                     },
-                    "id": "a24c1a4622e3c05097f71d67",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Where do I Belong",
+                    "id": "5a24c314108439a4d4036158",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Never Mutate State",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "where-do-i-belong"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "never-mutate-state"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/mutations",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/use-the-spread-operator-on-arrays",
+                        "blockName": "Redux"
                     },
-                    "id": "af2170cad53daa0770fabdea",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Mutations",
+                    "id": "5a24c314108439a4d4036159",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Use the Spread Operator on Arrays",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "mutations"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-the-spread-operator-on-arrays"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/chunky-monkey",
-                        "blockName": "Basic Algorithm Scripting"
+                        "slug": "/learn/front-end-libraries/redux/remove-an-item-from-an-array",
+                        "blockName": "Redux"
                     },
-                    "id": "a9bd25c716030ec90084d8a1",
-                    "block": "basic-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Chunky Monkey",
+                    "id": "5a24c314108439a4d403615a",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Remove an Item from an Array",
                     "order": 6,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "chunky-monkey"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "remove-an-item-from-an-array"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/redux/copy-an-object-with-object-assign",
+                        "blockName": "Redux"
                     },
-                    "id": "587d7dac367417b2b2512b73",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Create a Basic JavaScript Object",
+                    "id": "5a24c314108439a4d403615b",
+                    "block": "redux",
+                    "challengeType": 6,
+                    "title": "Copy an Object with Object.assign",
+                    "order": 6,
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "copy-an-object-with-object-assign"
+                }
+            },
+            {
+                "node": {
+                    "fields": {
+                        "slug": "/learn/front-end-libraries/react-and-redux/getting-started-with-react-redux",
+                        "blockName": "React and Redux"
+                    },
+                    "id": "5a24c314108439a4d4036141",
+                    "block": "react-and-redux",
+                    "challengeType": 6,
+                    "title": "Getting Started with React Redux",
                     "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "create-a-basic-javascript-object"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "getting-started-with-react-redux"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-dot-notation-to-access-the-properties-of-an-object",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/react-and-redux/manage-state-locally-first",
+                        "blockName": "React and Redux"
                     },
-                    "id": "587d7dac367417b2b2512b74",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Use Dot Notation to Access the Properties of an Object",
+                    "id": "5a24c314108439a4d4036142",
+                    "block": "react-and-redux",
+                    "challengeType": 6,
+                    "title": "Manage State Locally First",
                     "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-dot-notation-to-access-the-properties-of-an-object"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "manage-state-locally-first"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-method-on-an-object",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/react-and-redux/extract-state-logic-to-redux",
+                        "blockName": "React and Redux"
                     },
-                    "id": "587d7dad367417b2b2512b75",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Create a Method on an Object",
+                    "id": "5a24c314108439a4d4036143",
+                    "block": "react-and-redux",
+                    "challengeType": 6,
+                    "title": "Extract State Logic to Redux",
                     "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "create-a-method-on-an-object"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "extract-state-logic-to-redux"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/make-code-more-reusable-with-the-this-keyword",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/react-and-redux/use-provider-to-connect-redux-to-react",
+                        "blockName": "React and Redux"
                     },
-                    "id": "587d7dad367417b2b2512b76",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Make Code More Reusable with the this Keyword",
+                    "id": "5a24c314108439a4d4036144",
+                    "block": "react-and-redux",
+                    "challengeType": 6,
+                    "title": "Use Provider to Connect Redux to React",
                     "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "make-code-more-reusable-with-the-this-keyword"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "use-provider-to-connect-redux-to-react"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/define-a-constructor-function",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/react-and-redux/map-state-to-props",
+                        "blockName": "React and Redux"
                     },
-                    "id": "587d7dad367417b2b2512b77",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Define a Constructor Function",
+                    "id": "5a24c314108439a4d4036145",
+                    "block": "react-and-redux",
+                    "challengeType": 6,
+                    "title": "Map State to Props",
                     "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "define-a-constructor-function"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "map-state-to-props"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-a-constructor-to-create-objects",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/react-and-redux/map-dispatch-to-props",
+                        "blockName": "React and Redux"
                     },
-                    "id": "587d7dad367417b2b2512b78",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Use a Constructor to Create Objects",
+                    "id": "5a24c314108439a4d4036146",
+                    "block": "react-and-redux",
+                    "challengeType": 6,
+                    "title": "Map Dispatch to Props",
                     "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-a-constructor-to-create-objects"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "map-dispatch-to-props"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/extend-constructors-to-receive-arguments",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/react-and-redux/connect-redux-to-react",
+                        "blockName": "React and Redux"
                     },
-                    "id": "587d7dae367417b2b2512b79",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Extend Constructors to Receive Arguments",
+                    "id": "5a24c314108439a4d4036147",
+                    "block": "react-and-redux",
+                    "challengeType": 6,
+                    "title": "Connect Redux to React",
                     "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "extend-constructors-to-receive-arguments"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "connect-redux-to-react"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/verify-an-objects-constructor-with-instanceof",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/react-and-redux/connect-redux-to-the-messages-app",
+                        "blockName": "React and Redux"
                     },
-                    "id": "587d7dae367417b2b2512b7a",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Verify an Object's Constructor with instanceof",
+                    "id": "5a24c314108439a4d4036148",
+                    "block": "react-and-redux",
+                    "challengeType": 6,
+                    "title": "Connect Redux to the Messages App",
                     "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "verify-an-objects-constructor-with-instanceof"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "connect-redux-to-the-messages-app"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/understand-own-properties",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/react-and-redux/extract-local-state-into-redux",
+                        "blockName": "React and Redux"
                     },
-                    "id": "587d7dae367417b2b2512b7b",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Understand Own Properties",
+                    "id": "5a24c314108439a4d4036149",
+                    "block": "react-and-redux",
+                    "challengeType": 6,
+                    "title": "Extract Local State into Redux",
                     "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understand-own-properties"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "extract-local-state-into-redux"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-prototype-properties-to-reduce-duplicate-code",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/react-and-redux/moving-forward-from-here",
+                        "blockName": "React and Redux"
                     },
-                    "id": "587d7dae367417b2b2512b7c",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Use Prototype Properties to Reduce Duplicate Code",
+                    "id": "5a24c314108439a4d403614a",
+                    "block": "react-and-redux",
+                    "challengeType": 6,
+                    "title": "Moving Forward From Here",
                     "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-prototype-properties-to-reduce-duplicate-code"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "moving-forward-from-here"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/iterate-over-all-properties",
-                        "blockName": "Object Oriented Programming"
+                        "slug": "/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine",
+                        "blockName": "Front End Libraries Projects"
                     },
-                    "id": "587d7daf367417b2b2512b7d",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Iterate Over All Properties",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "iterate-over-all-properties"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/understand-the-constructor-property",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7daf367417b2b2512b7e",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Understand the Constructor Property",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understand-the-constructor-property"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/change-the-prototype-to-a-new-object",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7daf367417b2b2512b7f",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Change the Prototype to a New Object",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "change-the-prototype-to-a-new-object"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/remember-to-set-the-constructor-property-when-changing-the-prototype",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7daf367417b2b2512b80",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Remember to Set the Constructor Property when Changing the Prototype",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "remember-to-set-the-constructor-property-when-changing-the-prototype"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/understand-where-an-objects-prototype-comes-from",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db0367417b2b2512b81",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Understand Where an Object’s Prototype Comes From",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understand-where-an-objects-prototype-comes-from"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/understand-the-prototype-chain",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db0367417b2b2512b82",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Understand the Prototype Chain",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understand-the-prototype-chain"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-inheritance-so-you-dont-repeat-yourself",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db0367417b2b2512b83",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Use Inheritance So You Don't Repeat Yourself",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-inheritance-so-you-dont-repeat-yourself"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/inherit-behaviors-from-a-supertype",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db0367417b2b2512b84",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Inherit Behaviors from a Supertype",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "inherit-behaviors-from-a-supertype"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/set-the-childs-prototype-to-an-instance-of-the-parent",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db1367417b2b2512b85",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Set the Child's Prototype to an Instance of the Parent",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "set-the-childs-prototype-to-an-instance-of-the-parent"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/reset-an-inherited-constructor-property",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db1367417b2b2512b86",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Reset an Inherited Constructor Property",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "reset-an-inherited-constructor-property"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/add-methods-after-inheritance",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db1367417b2b2512b87",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Add Methods After Inheritance",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "add-methods-after-inheritance"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/override-inherited-methods",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db1367417b2b2512b88",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Override Inherited Methods",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "override-inherited-methods"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-a-mixin-to-add-common-behavior-between-unrelated-objects",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db2367417b2b2512b89",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Use a Mixin to Add Common Behavior Between Unrelated Objects",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-a-mixin-to-add-common-behavior-between-unrelated-objects"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-closure-to-protect-properties-within-an-object-from-being-modified-externally",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db2367417b2b2512b8a",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Use Closure to Protect Properties Within an Object from Being Modified Externally",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-closure-to-protect-properties-within-an-object-from-being-modified-externally"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/understand-the-immediately-invoked-function-expression-iife",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db2367417b2b2512b8b",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Understand the Immediately Invoked Function Expression (IIFE)",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understand-the-immediately-invoked-function-expression-iife"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-an-iife-to-create-a-module",
-                        "blockName": "Object Oriented Programming"
-                    },
-                    "id": "587d7db2367417b2b2512b8c",
-                    "block": "object-oriented-programming",
-                    "challengeType": 1,
-                    "title": "Use an IIFE to Create a Module",
-                    "order": 7,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-an-iife-to-create-a-module"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/learn-about-functional-programming",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7b8d367417b2b2512b5b",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Learn About Functional Programming",
+                    "id": "bd7158d8c442eddfaeb5bd13",
+                    "block": "front-end-libraries-projects",
+                    "challengeType": 3,
+                    "title": "Build a Random Quote Machine",
                     "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "learn-about-functional-programming"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "build-a-random-quote-machine"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/understand-functional-programming-terminology",
-                        "blockName": "Functional Programming"
+                        "slug": "/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer",
+                        "blockName": "Front End Libraries Projects"
                     },
-                    "id": "587d7b8e367417b2b2512b5c",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Understand Functional Programming Terminology",
+                    "id": "bd7157d8c242eddfaeb5bd13",
+                    "block": "front-end-libraries-projects",
+                    "challengeType": 3,
+                    "title": "Build a Markdown Previewer",
                     "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understand-functional-programming-terminology"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "build-a-markdown-previewer"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/understand-the-hazards-of-using-imperative-code",
-                        "blockName": "Functional Programming"
+                        "slug": "/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine",
+                        "blockName": "Front End Libraries Projects"
                     },
-                    "id": "587d7b8e367417b2b2512b5d",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Understand the Hazards of Using Imperative Code",
+                    "id": "587d7dbc367417b2b2512bae",
+                    "block": "front-end-libraries-projects",
+                    "challengeType": 3,
+                    "title": "Build a Drum Machine",
                     "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "understand-the-hazards-of-using-imperative-code"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "build-a-drum-machine"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/avoid-mutations-and-side-effects-using-functional-programming",
-                        "blockName": "Functional Programming"
+                        "slug": "/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator",
+                        "blockName": "Front End Libraries Projects"
                     },
-                    "id": "587d7b8e367417b2b2512b5e",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Avoid Mutations and Side Effects Using Functional Programming",
+                    "id": "bd7158d8c442eddfaeb5bd17",
+                    "block": "front-end-libraries-projects",
+                    "challengeType": 3,
+                    "title": "Build a JavaScript Calculator",
                     "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "avoid-mutations-and-side-effects-using-functional-programming"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "build-a-javascript-calculator"
                 }
             },
             {
                 "node": {
                     "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/pass-arguments-to-avoid-external-dependence-in-a-function",
-                        "blockName": "Functional Programming"
+                        "slug": "/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock",
+                        "blockName": "Front End Libraries Projects"
                     },
-                    "id": "587d7b8e367417b2b2512b5f",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Pass Arguments to Avoid External Dependence in a Function",
+                    "id": "bd7158d8c442eddfaeb5bd0f",
+                    "block": "front-end-libraries-projects",
+                    "challengeType": 3,
+                    "title": "Build a 25 + 5 Clock",
                     "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "pass-arguments-to-avoid-external-dependence-in-a-function"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/refactor-global-variables-out-of-functions",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7b8f367417b2b2512b60",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Refactor Global Variables Out of Functions",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "refactor-global-variables-out-of-functions"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7b8f367417b2b2512b61",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Use the map Method to Extract Data from an Array",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-map-method-to-extract-data-from-an-array"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/implement-map-on-a-prototype",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7b8f367417b2b2512b62",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Implement map on a Prototype",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "implement-map-on-a-prototype"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-filter-method-to-extract-data-from-an-array",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7b8f367417b2b2512b63",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Use the filter Method to Extract Data from an Array",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-filter-method-to-extract-data-from-an-array"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/implement-the-filter-method-on-a-prototype",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7b8f367417b2b2512b64",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Implement the filter Method on a Prototype",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "implement-the-filter-method-on-a-prototype"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/return-part-of-an-array-using-the-slice-method",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7b90367417b2b2512b65",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Return Part of an Array Using the slice Method",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "return-part-of-an-array-using-the-slice-method"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/remove-elements-from-an-array-using-slice-instead-of-splice",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "9d7123c8c441eeafaeb5bdef",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Remove Elements from an Array Using slice Instead of splice",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "remove-elements-from-an-array-using-slice-instead-of-splice"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/combine-two-arrays-using-the-concat-method",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7da9367417b2b2512b66",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Combine Two Arrays Using the concat Method",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "combine-two-arrays-using-the-concat-method"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/add-elements-to-the-end-of-an-array-using-concat-instead-of-push",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7da9367417b2b2512b67",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Add Elements to the End of an Array Using concat Instead of push",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "add-elements-to-the-end-of-an-array-using-concat-instead-of-push"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-reduce-method-to-analyze-data",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7da9367417b2b2512b68",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Use the reduce Method to Analyze Data",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-reduce-method-to-analyze-data"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7b88367417b2b2512b45",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/sort-an-array-alphabetically-using-the-sort-method",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7da9367417b2b2512b69",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Sort an Array Alphabetically using the sort Method",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "sort-an-array-alphabetically-using-the-sort-method"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/return-a-sorted-array-without-changing-the-original-array",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7da9367417b2b2512b6a",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Return a Sorted Array Without Changing the Original Array",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "return-a-sorted-array-without-changing-the-original-array"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/split-a-string-into-an-array-using-the-split-method",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7daa367417b2b2512b6b",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Split a String into an Array Using the split Method",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "split-a-string-into-an-array-using-the-split-method"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/combine-an-array-into-a-string-using-the-join-method",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7daa367417b2b2512b6c",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Combine an Array into a String Using the join Method",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "combine-an-array-into-a-string-using-the-join-method"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7dab367417b2b2512b6d",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Apply Functional Programming to Convert Strings to URL Slugs",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "apply-functional-programming-to-convert-strings-to-url-slugs"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-every-method-to-check-that-every-element-in-an-array-meets-a-criteria",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7dab367417b2b2512b6e",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Use the every Method to Check that Every Element in an Array Meets a Criteria",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-every-method-to-check-that-every-element-in-an-array-meets-a-criteria"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-criteria",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7dab367417b2b2512b6f",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Use the some Method to Check that Any Elements in an Array Meet a Criteria",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-criteria"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/functional-programming/introduction-to-currying-and-partial-application",
-                        "blockName": "Functional Programming"
-                    },
-                    "id": "587d7dab367417b2b2512b70",
-                    "block": "functional-programming",
-                    "challengeType": 1,
-                    "title": "Introduction to Currying and Partial Application",
-                    "order": 8,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "introduction-to-currying-and-partial-application"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a3566b1109230028080c9345",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Sum All Numbers in a Range",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "sum-all-numbers-in-a-range"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/diff-two-arrays",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a5de63ebea8dbee56860f4f2",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Diff Two Arrays",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "diff-two-arrays"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/seek-and-destroy",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a39963a4c10bc8b4d4f06d7e",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Seek and Destroy",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "seek-and-destroy"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/wherefore-art-thou",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a8e512fbe388ac2f9198f0fa",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Wherefore art thou",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "wherefore-art-thou"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/spinal-tap-case",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a103376db3ba46b2d50db289",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Spinal Tap Case",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "spinal-tap-case"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/pig-latin",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "aa7697ea2477d1316795783b",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Pig Latin",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "pig-latin"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/search-and-replace",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a0b5010f579e69b815e7c5d6",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Search and Replace",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "search-and-replace"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/dna-pairing",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "afd15382cdfb22c9efe8b7de",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "DNA Pairing",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "dna-pairing"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/missing-letters",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "af7588ade1100bde429baf20",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Missing letters",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "missing-letters"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sorted-union",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a105e963526e7de52b219be9",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Sorted Union",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "sorted-union"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/convert-html-entities",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a6b0bb188d873cb2c8729495",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Convert HTML Entities",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "convert-html-entities"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a5229172f011153519423690",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Sum All Odd Fibonacci Numbers",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "sum-all-odd-fibonacci-numbers"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-primes",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a3bfc1673c0526e06d3ac698",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Sum All Primes",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "sum-all-primes"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/smallest-common-multiple",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "ae9defd7acaf69703ab432ea",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Smallest Common Multiple",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "smallest-common-multiple"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/drop-it",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a5deed1811a43193f9f1c841",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Drop it",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "drop-it"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/steamroller",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "ab306dbdcc907c7ddfc30830",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Steamroller",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "steamroller"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/binary-agents",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a8d97bd4c764e91f9d2bda01",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Binary Agents",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "binary-agents"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/everything-be-true",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a10d2431ad0c6a099a4b8b52",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Everything Be True",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "everything-be-true"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/arguments-optional",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a97fd23d9b809dac9921074f",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Arguments Optional",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "arguments-optional"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/make-a-person",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "a2f1d72d9b908d0bd72bb9f6",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Make a Person",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "make-a-person"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/map-the-debris",
-                        "blockName": "Intermediate Algorithm Scripting"
-                    },
-                    "id": "af4afb223120f7348cdfc9fd",
-                    "block": "intermediate-algorithm-scripting",
-                    "challengeType": 5,
-                    "title": "Map the Debris",
-                    "order": 9,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "map-the-debris"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker",
-                        "blockName": "JavaScript Algorithms and Data Structures Projects"
-                    },
-                    "id": "aaa48de84e1ecc7c742e1124",
-                    "block": "javascript-algorithms-and-data-structures-projects",
-                    "challengeType": 5,
-                    "title": "Palindrome Checker",
-                    "order": 10,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "palindrome-checker"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter",
-                        "blockName": "JavaScript Algorithms and Data Structures Projects"
-                    },
-                    "id": "a7f4d8f2483413a6ce226cac",
-                    "block": "javascript-algorithms-and-data-structures-projects",
-                    "challengeType": 5,
-                    "title": "Roman Numeral Converter",
-                    "order": 10,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "roman-numeral-converter"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher",
-                        "blockName": "JavaScript Algorithms and Data Structures Projects"
-                    },
-                    "id": "56533eb9ac21ba0edf2244e2",
-                    "block": "javascript-algorithms-and-data-structures-projects",
-                    "challengeType": 5,
-                    "title": "Caesars Cipher",
-                    "order": 10,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "caesars-cipher"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator",
-                        "blockName": "JavaScript Algorithms and Data Structures Projects"
-                    },
-                    "id": "aff0395860f5d3034dc0bfc9",
-                    "block": "javascript-algorithms-and-data-structures-projects",
-                    "challengeType": 5,
-                    "title": "Telephone Number Validator",
-                    "order": 10,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "telephone-number-validator"
-                }
-            },
-            {
-                "node": {
-                    "fields": {
-                        "slug": "/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register",
-                        "blockName": "JavaScript Algorithms and Data Structures Projects"
-                    },
-                    "id": "aa2e6f85cab2ab736c9a9b24",
-                    "block": "javascript-algorithms-and-data-structures-projects",
-                    "challengeType": 5,
-                    "title": "Cash Register",
-                    "order": 10,
-                    "superBlock": "javascript-algorithms-and-data-structures",
-                    "dashedName": "cash-register"
+                    "superBlock": "front-end-libraries",
+                    "dashedName": "build-a-25--5-clock"
                 }
             }
         ]
