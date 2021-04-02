@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <title>FCC - Front End Development Libraries - React</title>
 
     <!-- Load React API -->
-    <script src= "../assets/react/react.production.min.js"></script>
+    <script src="../assets/react/react.production.min.js"></script>
     <!-- Load React DOM-->
-    <script src= "../assets/react/react-dom.production.min.js"></script>
+    <script src="../assets/react/react-dom.production.min.js"></script>
+    <!-- Load PropType -->
+    <script src="../assets/react/prop-types.min.js"></script>
     <!-- Load Babel Compiler -->
     <script src="../assets/babel/babel.min.js"></script>
 </head>
@@ -18,10 +21,38 @@
     <div id="root"></div>
 
     <script type="text/babel">
-        const test = <h1>Test</h1>;
-        ReactDOM.render(test, document.getElementById('root'));
+        class CampSite extends React.Component {
+            constructor(props) {
+                super(props);
+            }
+            render() {
+                return (
+                    <div>
+                        <Camper />
+                    </div>
+                );
+            }
+        };
+        // Change code below this line
+
+        const Camper = (props) => (
+            <div>
+                <h4>Welcome to my youtube channel, who says?:</h4>
+                <p>{props.name}</p>
+            </div>
+        );
+
+        Camper.defaultProps = {
+            name: 'CamperBot'
+        }
+
+        Camper.propTypes = {
+            name: PropTypes.string.isRequired
+        }
+        ReactDOM.render(<CampSite />, document.getElementById('root'));
     </script>
 </body>
+
 </html>
 
 <!-- link: https://www.freecodecamp.org/learn/front-end-libraries/react/review-using-props-with-stateless-functional-components 

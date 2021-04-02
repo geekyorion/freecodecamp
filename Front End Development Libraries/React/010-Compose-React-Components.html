@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,9 @@
     <title>FCC - Front End Development Libraries - React</title>
 
     <!-- Load React API -->
-    <script src= "../assets/react/react.production.min.js"></script>
+    <script src="../assets/react/react.production.min.js"></script>
     <!-- Load React DOM-->
-    <script src= "../assets/react/react-dom.production.min.js"></script>
+    <script src="../assets/react/react-dom.production.min.js"></script>
     <!-- Load Babel Compiler -->
     <script src="../assets/babel/babel.min.js"></script>
 </head>
@@ -18,10 +19,78 @@
     <div id="root"></div>
 
     <script type="text/babel">
-        const test = <h1>Test</h1>;
-        ReactDOM.render(test, document.getElementById('root'));
+        const NonCitrus = () => (
+            <div>
+                <h4>Non-Citrus:</h4>
+                <ul>
+                    <li>Apples</li>
+                    <li>Blueberries</li>
+                    <li>Strawberries</li>
+                    <li>Bananas</li>
+                </ul>
+            </div>
+        );
+
+        const Citrus = () => (
+            <div>
+                <h4>Citrus:</h4>
+                <ul>
+                    <li>Lemon</li>
+                    <li>Lime</li>
+                    <li>Orange</li>
+                    <li>Grapefruit</li>
+                </ul>
+            </div>
+        );
+
+        const Vegetables = () => (
+            <div>
+                <h2>Vegetables:</h2>
+                <ul>
+                    <li>Brussel Sprouts</li>
+                    <li>Broccoli</li>
+                    <li>Squash</li>
+                </ul>
+            </div>
+        );
+
+        class Fruits extends React.Component {
+            constructor(props) {
+                super(props);
+            }
+            render() {
+                return (
+                    <div>
+                        <h2>Fruits:</h2>
+                        { /* Change code below this line */}
+                        <NonCitrus />
+                        <Citrus />
+                        { /* Change code above this line */}
+                    </div>
+                );
+            }
+        };
+
+        class TypesOfFood extends React.Component {
+            constructor(props) {
+                super(props);
+            }
+            render() {
+                return (
+                    <div>
+                        <h1>Types of Food:</h1>
+                        { /* Change code below this line */}
+                        <Fruits />
+                        { /* Change code above this line */}
+                        <Vegetables />
+                    </div>
+                );
+            }
+        };
+        ReactDOM.render(<TypesOfFood />, document.getElementById('root'));
     </script>
 </body>
+
 </html>
 
 <!-- link: https://www.freecodecamp.org/learn/front-end-libraries/react/compose-react-components 

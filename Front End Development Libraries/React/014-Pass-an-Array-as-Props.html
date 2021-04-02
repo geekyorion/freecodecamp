@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,9 @@
     <title>FCC - Front End Development Libraries - React</title>
 
     <!-- Load React API -->
-    <script src= "../assets/react/react.production.min.js"></script>
+    <script src="../assets/react/react.production.min.js"></script>
     <!-- Load React DOM-->
-    <script src= "../assets/react/react-dom.production.min.js"></script>
+    <script src="../assets/react/react-dom.production.min.js"></script>
     <!-- Load Babel Compiler -->
     <script src="../assets/babel/babel.min.js"></script>
 </head>
@@ -18,10 +19,34 @@
     <div id="root"></div>
 
     <script type="text/babel">
-        const test = <h1>Test</h1>;
-        ReactDOM.render(test, document.getElementById('root'));
+        const List = (props) => {
+            { /* Change code below this line */ }
+            return <p>{props.tasks.join(', ')}</p>
+            { /* Change code above this line */ }
+        };
+
+        class ToDo extends React.Component {
+            constructor(props) {
+                super(props);
+            }
+            render() {
+                return (
+                    <div>
+                        <h1>To Do Lists</h1>
+                        <h2>Today</h2>
+                        { /* Change code below this line */}
+                        <List tasks={['Sleep', 'Eat', 'Code', 'Repeat']} />
+                        <h2>Tomorrow</h2>
+                        <List tasks={['Play Chess', 'Enjoy Weekend', 'and the above tasks :P']} />
+                        { /* Change code above this line */}
+                    </div>
+                );
+            }
+        };
+        ReactDOM.render(<ToDo />, document.getElementById('root'));
     </script>
 </body>
+
 </html>
 
 <!-- link: https://www.freecodecamp.org/learn/front-end-libraries/react/pass-an-array-as-props 
