@@ -13,7 +13,7 @@ const probs = json.allChallengeNode.edges;
 
 let count = 0;
 for (let i = 0; i < probs.length; i++) {
-    if (probs[i].node.block == "sass") {
+    if (probs[i].node.block == "react") {
 
         // Fetch the title
         let title = probs[i].node.title;
@@ -29,13 +29,29 @@ for (let i = 0; i < probs.length; i++) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FCC - Front End Development Libraries - SASS</title>
+    <title>FCC - Front End Development Libraries - React</title>
+
+    <!-- Load React API -->
+    <script src= "../assets/react/react.production.min.js"></script>
+    <!-- Load React DOM-->
+    <script src= "../assets/react/react-dom.production.min.js"></script>
+    <!-- Load Babel Compiler -->
+    <script src="../assets/babel/babel.min.js"></script>
 </head>
+
 <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const test = <h1>Test</h1>;
+        ReactDOM.render(test, document.getElementById('root'));
+    </script>
 </body>
 </html>
 
-<!-- link: https://www.freecodecamp.org${probs[i].node.fields.slug} -->
+<!-- link: https://www.freecodecamp.org${probs[i].node.fields.slug} 
+For the live view, please visit the below link
+https://geekyorion.github.io/freecodecamp/Front End Development Libraries/React/${title} -->
 `;
 
         // use writeFile to write and save file in the same folder (uses relative path)
