@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC - Front End Development Libraries - SASS</title>
+
+    <style type='text/scss'>
+        @mixin border-stroke($val) {
+            @if $val == light {
+                border: 1px solid black;
+            } @else if $val == medium {
+                border: 3px solid black;
+            } @else if $val == heavy {
+                border: 6px solid black;
+            } @else {
+                border: none;
+            }
+        }
+
+        #box {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            @include border-stroke(medium);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box"></div>
+</body>
+
+</html>
+
+<!-- link: https://www.freecodecamp.org/learn/front-end-libraries/sass/use-if-and-else-to-add-logic-to-your-styles -->

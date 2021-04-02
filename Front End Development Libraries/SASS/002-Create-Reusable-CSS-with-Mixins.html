@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC - Front End Development Libraries - SASS</title>
+
+    <style type="text/scss">
+        @mixin border-radius($radius) {
+            -webkit-border-radius: $radius;
+               -moz-border-radius: $radius;
+                -ms-border-radius: $radius;
+                    border-radius: $radius;
+        }
+
+        #awesome {
+            width: 150px;
+            height: 150px;
+            background-color: green;
+            @include border-radius(15px);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="awesome"></div>
+</body>
+
+</html>
+
+<!-- link: https://www.freecodecamp.org/learn/front-end-libraries/sass/create-reusable-css-with-mixins -->

@@ -13,7 +13,7 @@ const probs = json.allChallengeNode.edges;
 
 let count = 0;
 for (let i = 0; i < probs.length; i++) {
-    if (probs[i].node.block == "jquery") {
+    if (probs[i].node.block == "sass") {
 
         // Fetch the title
         let title = probs[i].node.title;
@@ -23,30 +23,19 @@ for (let i = 0; i < probs.length; i++) {
         title = `${count < 10 ? "00" + count : count < 100 ? "0" + count : count}-${title}.html`;
 
         // don't add the space as it can cause extra space
-        const data = `
-<!DOCTYPE html>
+        const data = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FCC - Front End Development Libraries - Boostrap</title>
-    <link rel="stylesheet" href="./../assets/bootstrap-v5/css/bootstrap.min.css">
+    <title>FCC - Front End Development Libraries - SASS</title>
 </head>
 <body>
-
-    <script src="./../assets/jquery/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-
-        });
-    </script>
 </body>
 </html>
 
-<!-- link: https://www.freecodecamp.org${probs[i].node.fields.slug}
-For the live view, please visit the below link
-https://geekyorion.github.io/freecodecamp/Front End Development Libraries/jQuery/${title} -->
+<!-- link: https://www.freecodecamp.org${probs[i].node.fields.slug} -->
 `;
 
         // use writeFile to write and save file in the same folder (uses relative path)

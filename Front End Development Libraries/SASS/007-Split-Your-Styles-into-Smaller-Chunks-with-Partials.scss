@@ -1,0 +1,6 @@
+// The main.scss file
+@import 'variables';
+
+// it will import a "_variables.scss" (partial) to this file
+// and now every variable, mixins and other scss are ready to use in the same file
+// link: https://www.freecodecamp.org/learn/front-end-libraries/sass/split-your-styles-into-smaller-chunks-with-partials
