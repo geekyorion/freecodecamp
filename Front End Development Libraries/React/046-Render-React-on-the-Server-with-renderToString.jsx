@@ -13,3 +13,5 @@ class App extends React.Component {
 ReactDOMServer.renderToString(<App />);
 
 // This is useful in case of SEO when you want some markup once initial loading is done
+
+// https://www.freecodecamp.org/learn/front-end-libraries/react/render-react-on-the-server-with-rendertostring 
