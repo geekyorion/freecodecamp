@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,9 @@
     <title>FCC - Front End Development Libraries - React</title>
 
     <!-- Load React API -->
-    <script src= "../assets/react/react.production.min.js"></script>
+    <script src="../assets/react/react.production.min.js"></script>
     <!-- Load React DOM-->
-    <script src= "../assets/react/react-dom.production.min.js"></script>
+    <script src="../assets/react/react-dom.production.min.js"></script>
     <!-- Load Babel Compiler -->
     <script src="../assets/babel/babel.min.js"></script>
 </head>
@@ -18,10 +19,50 @@
     <div id="root"></div>
 
     <script type="text/babel">
-        const test = <h1>Test</h1>;
-        ReactDOM.render(test, document.getElementById('root'));
+        class OnlyEvens extends React.Component {
+            constructor(props) {
+                super(props);
+            }
+            shouldComponentUpdate(nextProps, nextState) {
+                console.log('Should I update?');
+                // Change code below this line
+                return nextProps.value % 2 === 0;
+                // Change code above this line
+            }
+            componentDidUpdate() {
+                console.log('Component re-rendered.');
+            }
+            render() {
+                return <h1>{this.props.value}</h1>;
+            }
+        }
+
+        class Controller extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = {
+                    value: 0
+                };
+                this.addValue = this.addValue.bind(this);
+            }
+            addValue() {
+                this.setState(state => ({
+                    value: state.value + 1
+                }));
+            }
+            render() {
+                return (
+                    <div>
+                        <button onClick={this.addValue}>Add</button>
+                        <OnlyEvens value={this.state.value} />
+                    </div>
+                );
+            }
+        }
+        ReactDOM.render(<Controller />, document.getElementById('root'));
     </script>
 </body>
+
 </html>
 
 <!-- link: https://www.freecodecamp.org/learn/front-end-libraries/react/optimize-re-renders-with-shouldcomponentupdate 

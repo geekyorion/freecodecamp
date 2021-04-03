@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,9 @@
     <title>FCC - Front End Development Libraries - React</title>
 
     <!-- Load React API -->
-    <script src= "../assets/react/react.production.min.js"></script>
+    <script src="../assets/react/react.production.min.js"></script>
     <!-- Load React DOM-->
-    <script src= "../assets/react/react-dom.production.min.js"></script>
+    <script src="../assets/react/react-dom.production.min.js"></script>
     <!-- Load Babel Compiler -->
     <script src="../assets/babel/babel.min.js"></script>
 </head>
@@ -18,10 +19,23 @@
     <div id="root"></div>
 
     <script type="text/babel">
-        const test = <h1>Test</h1>;
-        ReactDOM.render(test, document.getElementById('root'));
+        class MyComponent extends React.Component {
+            constructor(props) {
+                super(props);
+            }
+            componentWillMount() {
+                // Change code below this line
+                console.log('Log from componentWillMount');
+                // Change code above this line
+            }
+            render() {
+                return <div />
+            }
+        };
+        ReactDOM.render(<MyComponent />, document.getElementById('root'));
     </script>
 </body>
+
 </html>
 
 <!-- link: https://www.freecodecamp.org/learn/front-end-libraries/react/use-the-lifecycle-method-componentwillmount 
