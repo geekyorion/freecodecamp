@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC - Front End Development Libraries - React and Redux</title>
+    <!-- Load React API -->
+    <script src="../assets/react/react.production.min.js"></script>
+    <!-- Load React DOM -->
+    <script src="../assets/react/react-dom.production.min.js"></script>
+    <!-- Load Redux -->
+    <script src="../assets/redux/redux.min.js"></script>
+    <!-- Load React Redux -->
+    <script src="../assets/redux/react-redux.min.js"></script>
+    <!-- Load Babel Compiler -->
+    <script src="../assets/babel/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const addMessage = (message) => {
+            return {
+                type: 'ADD',
+                message: message
+            }
+        };
+
+        const mapStateToProps = (state) => {
+            return {
+                messages: state
+            }
+        };
+
+        const mapDispatchToProps = (dispatch) => {
+            return {
+                submitNewMessage: (message) => {
+                    dispatch(addMessage(message));
+                }
+            }
+        };
+
+        // added to print the component
+        const store = Redux.createStore((state = 0) => state);
+
+        class Presentational extends React.Component {
+            constructor(props) {
+                super(props);
+            }
+            render() {
+                return <h3>This is a Presentational Component</h3>
+            }
+        };
+
+        const connect = ReactRedux.connect;
+
+        // added to print the component - used to provide the store
+        const Provider = ReactRedux.Provider;
+
+        // Change code below this line
+        const ConnectedComponent = connect(mapStateToProps, mapDispatchToProps)(Presentational);
+        ReactDOM.render(<Provider store={store}><ConnectedComponent /></Provider>, document.getElementById('root'));
+    </script>
+</body>
+
+</html>
+<!-- link: https://www.freecodecamp.org/learn/front-end-libraries/react-and-redux/connect-redux-to-react
+For the live view, please visit the below link
+https://geekyorion.github.io/freecodecamp/Front End Development Libraries/React and Redux/006-Connect-Redux-to-React.html -->
