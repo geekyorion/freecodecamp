@@ -12,3 +12,6 @@ const mapDispatchToProps = (dispatch) => {
         submitNewMessage: (message) => dispatch(addMessage(message))
     };
 }
+
+// link: https://www.freecodecamp.org/learn/front-end-libraries/react-and-redux/map-dispatch-to-props
+

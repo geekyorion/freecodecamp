@@ -6,3 +6,6 @@ const mapStateToProps = (state) => {
         messages: state
     }
 }
+
+// link: https://www.freecodecamp.org/learn/front-end-libraries/react-and-redux/map-state-to-props
+

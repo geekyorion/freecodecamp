@@ -14,3 +14,6 @@ const messageReducer = (state = [], action) => {
 }
 
 const store = Redux.createStore(messageReducer);
+
+// link: https://www.freecodecamp.org/learn/front-end-libraries/react-and-redux/extract-state-logic-to-redux
+
