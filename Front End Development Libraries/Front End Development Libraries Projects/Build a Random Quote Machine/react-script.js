@@ -16,15 +16,15 @@ const TwitterIcon = ({ fillColor }) => (
 );
 
 const App = () => {
-    const wrapper = useRef(null);
-
     const [quote, setQuote] = useState('');
     const [allQuotes, setAllQuotes] = useState([]);
     const [error, setError] = useState(false);
     const [colorProp, setColorProp] = useState(colorsArray[0]);
 
     useEffect(() => {
-        fetch('http://quotes.stormconsultancy.co.uk/quotes.json')
+        // Quotes are taken from: http://quotes.stormconsultancy.co.uk/quotes.json
+        // due to http request over https, quotes are saved in JSON format
+        fetch('./quotes.json')
             .then((res) => res.json())
             .then((quotes) => setAllQuotes(quotes))
             .catch((err) => setError(true));
@@ -62,8 +62,8 @@ const App = () => {
             {error ? (
                 <div className="error-wrapper">
                     <p className="display-1">
-                        Error while fetching the Quotes. Please check
-                        connection.
+                        Error while fetching the Quotes.
+                        Please check the network connection.
                     </p>
                 </div>
             ) : (
