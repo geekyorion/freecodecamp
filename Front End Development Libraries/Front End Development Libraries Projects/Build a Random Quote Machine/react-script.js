@@ -69,7 +69,7 @@ const App = () => {
             ) : (
                 quote && (
                     <React.Fragment>
-                        <h1 className="display-1">
+                        <h1 className="display-1 fixed-top">
                             Here are some awesome technical quotes
                         </h1>
                         <div

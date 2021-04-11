@@ -112,3 +112,11 @@ body {
     width: 16px;
     transition: fill 1s;
 }
+
+.fixed-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}

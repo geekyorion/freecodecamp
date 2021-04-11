@@ -5,7 +5,7 @@ const colorsArray = [
     { bgColor: "rgb(254, 164, 127)", textColor: '#FFF' },
     { bgColor: "rgb(37, 204, 247)", textColor: '#FFF' },
     { bgColor: "rgb(234, 181, 67)", textColor: '#222' },
-    { bgColor: "rgb(85, 230, 193)", textColor: '#FFF' },
+    { bgColor: "rgb(85, 230, 193)", textColor: '#222' },
     { bgColor: "rgb(202, 211, 200)", textColor: '#222' },
     { bgColor: "rgb(249, 127, 81)", textColor: '#FFF' },
     { bgColor: "rgb(27, 156, 252)", textColor: '#FFF' },
