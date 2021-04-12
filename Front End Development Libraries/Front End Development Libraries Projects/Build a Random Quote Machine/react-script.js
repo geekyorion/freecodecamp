@@ -37,18 +37,21 @@ const App = () => {
         }
     }, [allQuotes]);
 
-    useEffect(() => { }, [colorProp]);
-
     useEffect(() => {
         setColorProp(colorsArray[Math.floor(Math.random() * 200) % 20]);
     }, [quote]);
 
-    const generateRandom = async () => {
-        setQuote(
-            allQuotes[
-            Math.floor(Math.random() * quoteLength * 10) % quoteLength
-            ]
-        );
+    const generateRandom = () => {
+        let randomQuote = allQuotes[Math.floor(Math.random() * quoteLength * 10) % quoteLength];
+        while (randomQuote.id in checkQuote) {
+          randomQuote = allQuotes[Math.floor(Math.random() * quoteLength * 10) % quoteLength];
+        }
+
+        checkQuote[randomQuote.id] = true;
+        if (Object.keys(checkQuote).length === quoteLength) {
+          setCheckQuote({});
+        }
+        setQuote(randomQuote);
     };
 
     return (
