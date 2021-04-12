@@ -20,6 +20,7 @@ const App = () => {
     const [allQuotes, setAllQuotes] = useState([]);
     const [error, setError] = useState(false);
     const [colorProp, setColorProp] = useState(colorsArray[0]);
+    const [checkQuote, setCheckQuote] = useState({});
 
     useEffect(() => {
         // Quotes are taken from: http://quotes.stormconsultancy.co.uk/quotes.json
