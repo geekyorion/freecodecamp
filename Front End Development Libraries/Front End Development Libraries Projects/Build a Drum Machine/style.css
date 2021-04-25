@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    min-height: 100vh;
+    margin: 0;
+}
+
+::selection {
+    background-color: rgb(85, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+::-moz-selection {
+    background-color: rgb(85, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #00f8;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(150, 148, 245, 0.5);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(150, 148, 245);
+}
+
+.wrapper {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5dbb9;
+}
+
+.title {
+    position: absolute;
+    top: 60px;
+    margin: auto;
+}
+
+#drum-machine {
+    padding: 40px;
+    box-shadow: 10px 10px 40px #ccaa7e;
+    border-radius: 15px;
+    background: #f8dcb8;
+    text-align: center;
+}
+
+#display {
+    font-size: 30px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #f5dbb9;
+    border: 5px solid #dfb57f;
+    min-width: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.drum-pads {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 5px;
+}
+
+.drum-pad {
+    background: #f5dbb9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #dfb57f;
+    cursor: pointer;
+}
+
+.drum-pad.drum-pad-active {
+    background: #dfb57f;
+    box-shadow: 5px 5px 10px #d39647;
+    transform: scale(0.9);
+}
+
+.drum-text {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .drum-pads {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #display {
+        min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #display {
+        font-size: 25px;
+    }
+
+    .drum-pad {
+        height: 60px;
+        width: 60px;
+    }
+}
