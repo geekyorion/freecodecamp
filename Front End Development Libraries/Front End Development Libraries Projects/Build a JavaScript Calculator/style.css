@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    min-height: 100vh;
+    margin: 0;
+}
+
+::selection {
+    background-color: #222;
+    color: #efefef;
+}
+
+::-moz-selection {
+    background-color: #222;
+    color: #efefef;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc,
+.screen {
+    display: flex;
+    flex-direction: column;
+}
+
+.calc {
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.screen {
+    border: 2px solid #888;
+    margin-bottom: 10px;
+    padding: 10px 2px;
+    text-align: right;
+    justify-content: space-between;
+    word-wrap: break-word;
+    background: #eee;
+}
+
+.expression {
+    color: #333;
+}
+.expression #display {
+    color: green;
+    font-size: 17px;
+}
+
+.keys {
+    display: grid;
+    grid-template:
+        'clear back divide multiply'
+        'seven eight nine subtract'
+        'four five six add'
+        'one two three add'
+        'decimal zero equals equals';
+    gap: 2px;
+    user-select: none;
+}
+
+.key {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key:hover {
+    cursor: pointer;
+}
+
+#zero {
+    grid-area: zero;
+}
+#one {
+    grid-area: one;
+}
+#two {
+    grid-area: two;
+}
+#three {
+    grid-area: three;
+}
+#four {
+    grid-area: four;
+}
+#five {
+    grid-area: five;
+}
+#six {
+    grid-area: six;
+}
+#seven {
+    grid-area: seven;
+}
+#eight {
+    grid-area: eight;
+}
+#nine {
+    grid-area: nine;
+}
+#equals {
+    grid-area: equals;
+}
+#add {
+    grid-area: add;
+}
+#subtract {
+    grid-area: subtract;
+}
+#multiply {
+    grid-area: multiply;
+}
+#divide {
+    grid-area: divide;
+}
+#clear {
+    grid-area: clear;
+}
+#back {
+    grid-area: back;
+}
+
+.numeric {
+    background: #eee;
+    border: 2px solid #ccc;
+}
+.operator {
+    background: #ddd;
+}
+.additional,
+#equals {
+    background: #cbcbcb;
+}
+
+.key:hover {
+    transition-duration: 0.25s;
+    border: 2px solid #888;
+    background: #fff;
+}
+
+.operator:hover {
+    background: #eef;
+}
+#equals:hover {
+    background: #efe;
+}
+.additional:hover {
+    background: #fee;
+}
