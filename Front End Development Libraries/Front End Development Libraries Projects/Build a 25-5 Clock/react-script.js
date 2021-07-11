@@ -30,6 +30,7 @@ const App = () => {
             timerSec--;
 
             if (timerMins < 0 && intervalCleared) {
+                timerSec = 0;
                 intervalCleared = false;
                 clearInterval(timerID);
                 const nextScreen = currentScreen === 'session'
@@ -184,11 +185,10 @@ const App = () => {
                         >
                             {state.formattedTime}
                         </div>
-                        <div className="progress"></div>
                     </div>
                     <div className="session-controls">
                         <div className="controls" id="start_stop" onClick={() => handleSessionControls('play_pause')}>
-                            {sessionState === 'playing' ? <span className="pause-icon">&#8316;</span> : <span className="play-icon">&#8227;</span>}
+                            {sessionState === 'playing' ? <span className="pause-icon"> &#8316; </span> : <span className="play-icon"> &#8227; </span>}
                         </div>
                         <div className="controls" id="reset" onClick={() => handleSessionControls('reset')}>&#10227;</div>
                     </div>
