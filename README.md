@@ -29,3 +29,4 @@
     -   Markdown Previewer [Markdown-Previewer](https://geekyorion.github.io/freecodecamp/Front%20End%20Development%20Libraries/Front%20End%20Development%20Libraries%20Projects/Build%20a%20Markdown%20Previewer/)
     -   Drum Machine [Dubstep Drum Machine](https://geekyorion.github.io/freecodecamp/Front%20End%20Development%20Libraries/Front%20End%20Development%20Libraries%20Projects/Build%20a%20Drum%20Machine/)
     -   Calculator [JavaScript Calculator](https://geekyorion.github.io/freecodecamp/Front%20End%20Development%20Libraries/Front%20End%20Development%20Libraries%20Projects/Build%20a%20JavaScript%20Calculator/)
+    -   StopWatch [25 + 5 Timer Watch](https://geekyorion.github.io/freecodecamp/Front%20End%20Development%20Libraries/Front%20End%20Development%20Libraries%20Projects/Build%20a%2025-5%20Clock/)

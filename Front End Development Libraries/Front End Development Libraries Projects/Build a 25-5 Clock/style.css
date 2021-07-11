@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    min-height: 100vh;
+    margin: 0;
+    background: -webkit-radial-gradient(rgb(224, 209, 229), rgb(112, 119, 147));
+    background: -o-radial-gradient(rgb(224, 209, 229), rgb(112, 119, 147));
+    background: radial-gradient(rgb(224, 209, 229), rgb(112, 119, 147));
+}
+
+::selection {
+    background-color: #222;
+    color: #efefef;
+}
+
+::-moz-selection {
+    background-color: #222;
+    color: #efefef;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1 {
+    margin: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.controls-wrapper {
+    display: flex;
+}
+
+.control-wrapper {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.control-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-heading {
+    color: #333;
+}
+
+.controls {
+    border: 1px solid #8888;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin: 10px;
+    transition-duration: 0.25s;
+    user-select: none;
+}
+
+.controls:hover {
+    border-color: #888;
+}
+
+.controls.increment {
+    transform: rotate(90deg);
+}
+
+.controls.decrement {
+    transform: rotate(-90deg);
+}
+
+#session-length,
+#break-length {
+    font-weight: 600;
+}
+
+.timer-wrapper {
+    background: #fff2;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.session-heading h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.session-timer {
+    font-size: 50px;
+}
+
+.session-controls {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.session-controls .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    padding: 0;
+}
+
+#start_stop {
+    font-size: 50px;
+}
+
+.play-icon {
+    margin-top: 2px;
+}
+
+.pause-icon {
+    transform: rotate(90deg);
+    margin-left: -18px;
+    margin-top: -1px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 650px) {
+    .controls-wrapper {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .control-wrapper {
+        margin: 0;
+        padding: 5px;
+    }
+}
