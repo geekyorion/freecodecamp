@@ -118,23 +118,6 @@ main {
     user-select: none;
 }
 
-.play-icon {
-    margin-top: 2px;
-    font-size: 40px;
-}
-
-.pause-icon {
-    font-size: 50px;
-    transform: rotate(90deg);
-    margin-left: -18px;
-    margin-top: -1px;
-    font-weight: 600;
-}
-
-#reset {
-    font-weight: 600;
-}
-
 @media only screen and (max-width: 650px) {
     .controls-wrapper {
         flex-direction: column;
