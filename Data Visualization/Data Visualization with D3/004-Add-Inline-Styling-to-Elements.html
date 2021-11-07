@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC - Data Visualization - Data Visualization with D3</title>
+</head>
+
+<body>
+    <script src="./../assets/d3.v7.min.js"></script>
+    <script>
+        const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+
+        d3.select("body").selectAll("h2")
+            .data(dataset)
+            .enter()
+            .append("h2")
+            .text(d => `${d} USD`)
+            .style('font-family', 'verdana')    // can add mulitple style using .style() chain
+    </script>
+</body>
+
+</html>
+<!-- link: https://www.freecodecamp.org/learn/data-visualization/data-visualization-with-d3/add-inline-styling-to-elements
+For the live view, please visit the below link
+https://geekyorion.github.io/freecodecamp/Data Visualization/Data Visualization with D3/004-Add-Inline-Styling-to-Elements.html -->

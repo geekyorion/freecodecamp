@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC - Data Visualization - Data Visualization with D3</title>
+</head>
+
+<body>
+    <script src="./../assets/d3.v7.min.js"></script>
+    <script>
+        const dataset = [
+            [34, 78],
+            [109, 280],
+            [310, 120],
+            [79, 411],
+            [420, 220],
+            [233, 145],
+            [333, 96],
+            [222, 333],
+            [78, 320],
+            [21, 123]
+        ];
+
+        const w = 500;
+        const h = 500;
+
+        // Padding between the SVG canvas boundary and the plot
+        const padding = 30;
+
+        // Create an x and y scale
+
+        const xScale = d3.scaleLinear()
+            .domain([0, d3.max(dataset, (d) => d[0])])
+            .range([padding, w - padding]);
+
+        const yScale = d3.scaleLinear()
+            .domain([0, d3.max(dataset, d => d[1])])
+            .range([h - padding, padding]);
+
+        const output = yScale(411); // Returns 30
+        d3.select('body')
+            .append('h2')
+            .text(output);
+    </script>
+</body>
+
+</html>
+<!-- link: https://www.freecodecamp.org/learn/data-visualization/data-visualization-with-d3/use-dynamic-scales
+For the live view, please visit the below link
+https://geekyorion.github.io/freecodecamp/Data Visualization/Data Visualization with D3/026-Use-Dynamic-Scales.html -->

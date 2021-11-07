@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC - Data Visualization - Data Visualization with D3</title>
+</head>
+
+<body>
+    <script src="./../assets/d3.v7.min.js"></script>
+    <script>
+        const scale = d3.scaleLinear(); // Create the scale here
+        const output = scale(50); // Call scale with an argument here
+
+        d3.select('body')
+            .append('h2')
+            .text(output);
+    </script>
+</body>
+
+</html>
+<!-- link: https://www.freecodecamp.org/learn/data-visualization/data-visualization-with-d3/create-a-linear-scale-with-d3
+For the live view, please visit the below link
+https://geekyorion.github.io/freecodecamp/Data Visualization/Data Visualization with D3/023-Create-a-Linear-Scale-with-D3.html -->

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC - Data Visualization - Data Visualization with D3</title>
+</head>
+
+<body>
+    <script src="./../assets/d3.v7.min.js"></script>
+    <script>
+        const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+
+        const w = 500;
+        const h = 100;
+
+        const svg = d3.select('body')
+            .append('svg')
+            .attr('width', w)
+            .attr('height', h);
+
+        svg.selectAll('rect')
+            .data(dataset)
+            .enter()
+            .append('rect')
+            .attr('x', (d, i) => i * 30)
+            .attr('y', d => (h - d * 3))
+            .attr('width', 25)
+            .attr('height', d => d * 3)
+            .attr('fill', 'navy')
+            .attr('class', 'bar')
+            .append('title')
+            .text(d => d);
+
+        svg.selectAll('text')
+            .data(dataset)
+            .enter()
+            .append('text')
+            .attr('x', (d, i) => i * 30)
+            .attr('y', d => h - 3 * d - 3)
+            .text(d => d);
+    </script>
+</body>
+
+</html>
+<!-- link: https://www.freecodecamp.org/learn/data-visualization/data-visualization-with-d3/add-a-tooltip-to-a-d3-element
+For the live view, please visit the below link
+https://geekyorion.github.io/freecodecamp/Data Visualization/Data Visualization with D3/019-Add-a-Tooltip-to-a-D3-Element.html -->

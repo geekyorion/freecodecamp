@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC - Data Visualization - Data Visualization with D3</title>
+</head>
+
+<body>
+    <script src="./../assets/d3.v7.min.js"></script>
+    <script>
+        const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+        d3.select('body')       // selects the body
+            .selectAll('h2')    // then select all the h2
+            .data(dataset)      // run through dataset
+            .enter()            // enter will tell that there are no h2 so d3 will create 9 h2, if there is 1 then d3 will create 8
+            .append('h2')       // append h2 tag
+            .text('New Title')  // insert the text
+    </script>
+</body>
+
+</html>
+<!-- link: https://www.freecodecamp.org/learn/data-visualization/data-visualization-with-d3/work-with-data-in-d3
+For the live view, please visit the below link
+https://geekyorion.github.io/freecodecamp/Data Visualization/Data Visualization with D3/002-Work-with-Data-in-D3.html -->

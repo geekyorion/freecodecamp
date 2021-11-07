@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC - Data Visualization - Data Visualization with D3</title>
+</head>
+
+<body>
+    <script src="./../assets/d3.v7.min.js"></script>
+    <script>
+        const dataset = [
+            [34, 78],
+            [109, 280],
+            [310, 120],
+            [79, 411],
+            [420, 220],
+            [233, 145],
+            [333, 96],
+            [222, 333],
+            [78, 320],
+            [21, 123]
+        ];
+
+        const w = 500;
+        const h = 500;
+        const padding = 60;
+
+        const xScale = d3.scaleLinear()
+            .domain([0, d3.max(dataset, (d) => d[0])])
+            .range([padding, w - padding]);
+
+        // after this we need not to calculate cy or y position from top cause it will scale
+        const yScale = d3.scaleLinear()
+            .domain([0, d3.max(dataset, (d) => d[1])])
+            .range([h - padding, padding]);
+
+        const svg = d3.select('body')
+            .append('svg')
+            .attr('width', w)
+            .attr('height', h);
+
+        svg.selectAll('circle')
+            .data(dataset)
+            .enter()
+            .append('circle')
+            .attr('cx', d => xScale(d[0]))
+            .attr('cy', d => yScale(d[1]))
+            .attr('r', 5);
+
+        svg.selectAll('text')
+            .data(dataset)
+            .enter()
+            .append('text')
+            .text(d => `${d[0]}, ${d[1]}`)
+            .attr('x', d => xScale(d[0] + 10))
+            .attr('y', d => yScale(d[1]));
+
+        const xAxis = d3.axisBottom(xScale);
+        const yAxis = d3.axisLeft(yScale);
+
+        svg.append('g')
+            // .style('transform', `translateY(${h - padding}px)`)      // commneted cause of test case but works fine
+            .attr('transform', `translate(0, ${h - padding})`)
+            .call(xAxis);
+
+        svg.append('g')
+            // .style('transform', `translateX(${padding}px)`)
+            .attr('transform', `translate(${padding}, 0)`)
+            .call(yAxis);
+    </script>
+</body>
+
+</html>
+<!-- link: https://www.freecodecamp.org/learn/data-visualization/data-visualization-with-d3/add-axes-to-a-visualization
+For the live view, please visit the below link
+https://geekyorion.github.io/freecodecamp/Data Visualization/Data Visualization with D3/028-Add-Axes-to-a-Visualization.html -->
